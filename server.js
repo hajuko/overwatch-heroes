@@ -4,8 +4,8 @@ var port = 8080;
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/', function(req, res) {
-    res.render('test');
+app.get('/data', function(req, res) {
+
 });
 
 app.listen(port);
