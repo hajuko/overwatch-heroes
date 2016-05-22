@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSGO to Overwatch Sensitivity</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+
+<script>
+    $(function() {
+        $('#calc').on('click', function() {
+            $('#result').html(($('#csgo-sens').val() / 30) * 100);
+        });
+    });
+</script>
+
+<input id="csgo-sens"/>
+
+<button id="calc">calculate</button>
+<span>result:</span><span id="result"></span>
+</body>
+</html>
