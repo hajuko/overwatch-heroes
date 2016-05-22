@@ -23,7 +23,7 @@
 					<h2><%= hero.name %></h2>
 					<div id="abilities">
 						<% _.each(hero.abilities, function(ability) { %>
-							<%= renderAbility({ability: ability}) %>
+							<%= renderAbility({ability: ability, imagePath: imagePath}) %>
 						<% }); %>
 					</div>
 				</div>
@@ -32,6 +32,9 @@
 
 		<script id="t-ability" type="text/template">
 			<div class="ability">
+				<div class="image-circle">
+					<img src="<%= imagePath %><%= ability.image %>"/>
+				</div>
 				<%= ability.name %>
 			</div>
 		</script>

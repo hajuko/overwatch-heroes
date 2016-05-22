@@ -1,6 +1,7 @@
 -
   name: Genji
-  picture: genji.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/genji/'
+  picture: genji/genji.png
   class: offense
   hp: 200
   armor: 0
@@ -12,22 +13,28 @@
     -
       name: Shuriken
       type: damage
+      image: genji/abilities/1.png
     -
       name: Fan of Blades
       type: damage
+      image: genji/abilities/1.png
     -
       name: Swift Strike
       type: damage
+      image: genji/abilities/3.png
     -
       name: Deflect
       type: defensive
+      image: genji/abilities/2.png
     -
       name: Dragonblade
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: McCree
-  picture: mccree.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/mccree/'
+  picture: mccree/mccree.png
   class: offense
   hp: 200
   armor: 0
@@ -36,22 +43,29 @@
     -
       name: Peacekeeper
       type: damage
+      image: genji/abilities/4.png
+
     -
       name: Peacekeeper (Alt-Fire)
       type: damage
+      image: genji/abilities/4.png
     -
       name: Flashbang
       type: damage
+      image: genji/abilities/4.png
     -
       name: Combat Roll
       type: utility
+      image: genji/abilities/4.png
     -
       name: Deadeye
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Pharah
-  picture: pharah.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/pharah/'
+  picture: pharah/pharah.png
   class: offense
   hp: 200
   armor: 0
@@ -60,22 +74,28 @@
     -
       name: Rocket Launcher
       type: damage
+      image: genji/abilities/4.png
     -
       name: Concussive Blast
       type: damage
+      image: genji/abilities/4.png
     -
       name: Jump Jet
       type: utility
+      image: genji/abilities/4.png
     -
       name: Hover Jets
       type: utility
+      image: genji/abilities/4.png
     -
       name: Barrage
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Reaper
-  picture: reaper.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/reaper/'
+  picture: reaper/reaper.png
   class: offense
   hp: 250
   armor: 0
@@ -84,22 +104,28 @@
     -
       name: Hellfire Shotguns
       type: damage
+      image: genji/abilities/4.png
     -
       name: Wraith Form
       type: utility
+      image: genji/abilities/4.png
     -
       name: Shadow Step
       type: utility
+      image: genji/abilities/4.png
     -
       name: The Reaping
       type: passive
+      image: genji/abilities/4.png
     -
       name: Death Blossom
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Soldier 76
-  picture: soldier76.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/soldier-76/'
+  picture: soldier76/soldier76.png
   class: offense
   hp: 200
   armor: 0
@@ -108,22 +134,28 @@
     -
       name: Heavy Pulse Rifle
       type: damage
+      image: genji/abilities/4.png
     -
       name: Helix Rockets
       type: damage
+      image: genji/abilities/4.png
     -
       name: Sprint
       type: utility
+      image: genji/abilities/4.png
     -
       name: Biotic Field
       type: heal
+      image: genji/abilities/4.png
     -
       name: Tactical Visor
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Tracer
-  picture: tracer.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/tracer/'
+  picture: tracer/tracer.png
   class: offense
   hp: 150
   armor: 0
@@ -132,19 +164,24 @@
     -
       name: Pulse Pistols
       type: damage
+      image: genji/abilities/4.png
     -
       name: Blink
       type: utility
+      image: genji/abilities/4.png
     -
       name: Recall
       type: utility
+      image: genji/abilities/4.png
     -
       name: Pulse Bomb
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Bastion
-  picture: bastion.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/bastion/'
+  picture: bastion/bastion.png
   class: defense
   hp: 300
   armor: 100
@@ -153,22 +190,28 @@
     -
       name: 'Configuration: Recon'
       type: damage
+      image: genji/abilities/4.png
     -
       name: 'Configuration: Sentry'
       type: damage
+      image: genji/abilities/4.png
     -
       name: Reconfigure
       type: utility
+      image: genji/abilities/4.png
     -
       name: Self-Repair
       type: heal
+      image: genji/abilities/4.png
     -
       name: 'Configuration: Tank'
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Hanzo
-  picture: hanzo.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/hanzo/'
+  picture: hanzo/hanzo.png
   class: defense
   hp: 200
   armor: 0
@@ -177,22 +220,28 @@
     -
       name: Storm Bow
       type: damage
+      image: genji/abilities/4.png
     -
       name: Sonic Arrow
       type: damage
+      image: genji/abilities/4.png
     -
       name: Scatter Arrow
       type: damage
+      image: genji/abilities/4.png
     -
       name: Wall Climb
       type: utility
+      image: genji/abilities/4.png
     -
       name: Dragonstrike
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Junkrat
-  picture: junkrat.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/junkrat/'
+  picture: junkrat/junkrat.png
   class: defense
   hp: 200
   armor: 0
@@ -201,22 +250,28 @@
     -
       name: Frag Launcher
       type: damage
+      image: genji/abilities/4.png
     -
       name: Concussion Mine
       type: damage
+      image: genji/abilities/4.png
     -
       name: Steel Trap
       type: damage
+      image: genji/abilities/4.png
     -
       name: Total Mayhem
       type: passive
+      image: genji/abilities/4.png
     -
       name: Rip-Tire
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Mei
-  picture: mei.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/mei/'
+  picture: mei/mei.png
   class: defense
   hp: 250
   armor: 0
@@ -225,52 +280,66 @@
     -
       name: Endothermic Blaster
       type: damage
+      image: genji/abilities/4.png
     -
       name: Icicle
       type: damage
+      image: genji/abilities/4.png
     -
       name: Cryo-Freeze
       type: heal
+      image: genji/abilities/4.png
     -
       name: Ice Wall
       type: utility
+      image: genji/abilities/4.png
     -
       name: Blizzard
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Torbjörn
-  picture: torbjoern.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/torbjorn/'
+  picture: torbjorn/torbjorn.png
   class: defense
   hp: 200
-  armor: 0
+  armor: 0^
   difficulty: 2
   abilities:
     -
       name: Rivet Gun
       type: damage
+      image: genji/abilities/4.png
     -
       name: Rivet Gun (Alt-Fire)
       type: damage
+      image: genji/abilities/4.png
     -
       name: Forge Hammer
       type: damage
+      image: genji/abilities/4.png
     -
       name: Armor Pack
       type: utility
+      image: genji/abilities/4.png
     -
       name: Build Turret
       type: utility
+      image: genji/abilities/4.png
     -
       name: Molten Core
       type: ultimate
+      image: genji/abilities/4.png
     -
       name: Turret
       type: multilevel
+      image: genji/abilities/4.png
 
 -
   name: Widowmaker
-  picture: widowmaker.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/widowmaker/'
+  picture: widowmaker/widowmaker.png
   class: defense
   hp: 200
   armor: 0
@@ -279,22 +348,28 @@
     -
       name: 'Widow's Kiss: Assault'
       type: damage
+      image: genji/abilities/4.png
     -
       name: 'Widow's Kiss: Sniper'
       type: damage
+      image: genji/abilities/4.png
     -
       name: Venom Mine
       type: damage
+      image: genji/abilities/4.png
     -
       name: Grappling Hook
       type: utility
+      image: genji/abilities/4.png
     -
       name: Infra-Sight
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: D. Va
-  picture: dva.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/dva/'
+  picture: dva/dva.png
   class: tank
   hp: 100
   armor: 400
@@ -303,25 +378,32 @@
     -
       name: 'Pilot: Light Gun'
       type: damage
+      image: genji/abilities/4.png
     -
       name: 'Mech: Fusion Cannons'
       type: damage
+      image: genji/abilities/4.png
     -
       name: 'Mech: Boosters'
       type: damage
+      image: genji/abilities/4.png
     -
       name: 'Mech: Defense Matrix'
       type: utility
+      image: genji/abilities/4.png
     -
       name: 'Pilot: Call Mech'
       type: ultimate
+      image: genji/abilities/4.png
     -
       name: 'Mech: Self-Destruct'
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Reinhardt
-  picture: reinhardt.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/reinhardt/'
+  picture: reinhardt/reinhardt.png
   class: tank
   hp: 300
   armor: 200
@@ -330,22 +412,28 @@
     -
       name: Rocket Hammer
       type: damage
+      image: genji/abilities/4.png
     -
       name: Fire Strike
       type: damage
+      image: genji/abilities/4.png
     -
       name: Charge
       type: damage
+      image: genji/abilities/4.png
     -
       name: Barrier Field
       type: shield
+      image: genji/abilities/4.png
     -
       name: Earth Shatter
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Roadhog
-  picture: roadhog.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/roadhog/'
+  picture: roadhog/roadhog.png
   class: defense
   hp: 600
   armor: 0
@@ -354,22 +442,28 @@
     -
       name: Scrap Gun
       type: damage
+      image: genji/abilities/4.png
     -
       name: Scrap Gun (Alt-Fire)
       type: damage
+      image: genji/abilities/4.png
     -
       name: Chain Hook
       type: damage
+      image: genji/abilities/4.png
     -
       name: Take a Breather
       type: heal
+      image: genji/abilities/4.png
     -
       name: Whole Hog
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Winston
-  picture: winston.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/winston/'
+  picture: winston/winston.png
   class: defense
   hp: 400
   armor: 100
@@ -378,20 +472,25 @@
     -
       name: Tesla Cannon
       type: damage
+      image: genji/abilities/4.png
     -
       name: Jump Pack
       type: damage
+      image: genji/abilities/4.png
     -
       name: Barrier Projector
       type: shield
+      image: genji/abilities/4.png
     -
       name: Primal Rage
       type: ultimate
+      image: genji/abilities/4.png
 
 
 -
   name: Zarya
-  picture: zarya.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/zarya/'
+  picture: zarya/zarya.png
   class: defense
   hp: 200
   armor: 0
@@ -401,25 +500,32 @@
     -
       name: Particle Cannon
       type: damage
+      image: genji/abilities/4.png
     -
       name: Particle Cannon (Alt-Fire)
       type: damage
+      image: genji/abilities/4.png
     -
       name: Particle Barrier
       type: shield
+      image: genji/abilities/4.png
     -
       name: Projected Barrier
       type: shield
+      image: genji/abilities/4.png
     -
       name: Energy
       type: passive
+      image: genji/abilities/4.png
     -
       name: Graviton Surge
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Lúcio
-  picture: lucio.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/lucio/'
+  picture: lucio/lucio.png
   class: support
   hp: 200
   armor: 0
@@ -429,28 +535,36 @@
     -
       name: Sonic Amplifier
       type: damage
+      image: genji/abilities/4.png
     -
       name: Soundwave
       type: damage
+      image: genji/abilities/4.png
     -
       name: 'Crossfade: Speed'
       type: buff
+      image: genji/abilities/4.png
     -
       name: 'Crossfade: Heal'
       type: heal
+      image: genji/abilities/4.png
     -
       name: 'Amp It Up: Speed'
       type: buff
+      image: genji/abilities/4.png
     -
       name: 'Amp it Up: Heal'
       type: heal
+      image: genji/abilities/4.png
     -
       name: Sound Barrier
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Mercy
-  picture: mercy.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/mercy/'
+  picture: mercy/mercy.png
   class: support
   hp: 200
   armor: 0
@@ -460,28 +574,36 @@
     -
       name: Caduceus Blaster
       type: damage
+      image: genji/abilities/4.png
     -
       name: 'Caduceus Staff: Heal'
       type: heal
+      image: genji/abilities/4.png
     -
       name: 'Caduceus Staff: Damage'
       type: buff
+      image: genji/abilities/4.png
     -
       name: Guardian Angel
       type: utility
+      image: genji/abilities/4.png
     -
       name: 'Angelic Descent: Glide'
       type: utility
+      image: genji/abilities/4.png
     -
       name: 'Angelic Descent: Self Heal'
       type: passive
+      image: genji/abilities/4.png
     -
       name: Resurrect
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Symmetra
-  picture: symmetra.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/symmetra/'
+  picture: symmetra/symmetra.png
   class: support
   hp: 100
   armor: 0
@@ -491,25 +613,32 @@
     -
       name: Photon Projector
       type: damage
+      image: genji/abilities/4.png
     -
       name: Photon Projector (Alt-Fire)
       type: heal
+      image: genji/abilities/4.png
     -
       name: 'Sentry Turret: Build'
       type: utility
+      image: genji/abilities/4.png
     -
       name: 'Sentry Turret: Attack'
       type: damage
+      image: genji/abilities/4.png
     -
       name: Photon Shield
       type: shield
+      image: genji/abilities/4.png
     -
       name: Teleporter
       type: ultimate
+      image: genji/abilities/4.png
 
 -
   name: Zenyatta
-  picture: zenyatta.png
+  sourceUrl: 'https://playoverwatch.com/de-de/heroes/zenyatta/'
+  picture: zenyatta/zenyatta.png
   class: support
   hp: 50
   armor: 0
@@ -519,15 +648,20 @@
     -
       name: Orb of Destruction
       type: damage
+      image: genji/abilities/4.png
     -
       name: Orb of Destuction (Alt-Fire)
       type: damage
+      image: genji/abilities/4.png
     -
       name: Orb of Harmony
       type: heal
+      image: genji/abilities/4.png
     -
       name: Orb of Discord
       type: debuff
+      image: genji/abilities/4.png
     -
       name: Trancendence
       type: ultimate
+      image: genji/abilities/4.png

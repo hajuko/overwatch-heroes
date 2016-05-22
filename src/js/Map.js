@@ -146,7 +146,7 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
     function showCharacterInfo(character) {
         var infoTemplate = $('#t-hero-info').html();
         var abilityTemplateFn = _.template($('#t-ability').html());
-        heroInfo.html(_.template(infoTemplate)({hero: character, renderAbility: abilityTemplateFn}));
+        heroInfo.html(_.template(infoTemplate)({hero: character, renderAbility: abilityTemplateFn, imagePath: settings.imagePath }));
         console.log('show info');
 
         var closeButton = $('#hero-info-close');

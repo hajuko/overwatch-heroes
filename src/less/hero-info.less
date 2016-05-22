@@ -22,7 +22,6 @@
 
     img {
       max-width: 100%;
-      border: solid 1px #28354F;
     }
   }
 
@@ -54,6 +53,32 @@
 }
 
 .ability {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-left: 70px;
+  min-height: 60px;
+
+  .image-circle {
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background: gray;
+  }
+
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: auto;
+    max-width: 90%;
+    max-height: 65%;
+    color: black;
+  }
 }

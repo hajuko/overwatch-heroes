@@ -1,7 +1,7 @@
 $(function() {
     var settings = {
         characterSize: 100,
-        imagePath: 'img/'
+        imagePath: 'img/heroes/'
     };
 
     $.ajax({
