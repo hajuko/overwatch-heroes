@@ -99,7 +99,7 @@
 
 -
   name: Soldier 76
-  picture: solider76.png
+  picture: soldier76.png
   class: offense
   hp: 200
   armor: 0

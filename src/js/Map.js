@@ -5,6 +5,7 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
     var zoomReference = 4;
     var scaleFactor = 1 / Math.pow(2, zoomReference);
     var that = this;
+    var heroInfo;
 
     var templates = {
         episodePicker: $('#t-episode-picker').html()
@@ -14,11 +15,12 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
 
     init();
     var characters = createCharacters(rawCharacters);
-    console.log(characters.length);
     var currentCharacters = characters;
     updateCharacters([]);
 
     function init() {
+        heroInfo = $('#hero-info');
+        that.selectCharacter = selectCharacter;
         that.showCharacterInfo = showCharacterInfo;
         that.scaledCoordinates = scaledCoordinates;
         that.scaleFactor = scaleFactor;
@@ -39,7 +41,7 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
                 attributionControl: false,
                 inertia: false,
                 zoom: 0,
-                maxZoom: 5,
+                maxZoom: 4,
                 preferCanvas: true
             }
         );
@@ -142,8 +144,21 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
     }
 
     function showCharacterInfo(character) {
-        $('#info-box').html(character.name);
-        console.log(character);
+        var infoTemplate = $('#t-hero-info').html();
+        var abilityTemplateFn = _.template($('#t-ability').html());
+        heroInfo.html(_.template(infoTemplate)({hero: character, renderAbility: abilityTemplateFn}));
+        console.log('show info');
+
+        var closeButton = $('#hero-info-close');
+        closeButton.on('click', function() {
+            hideCharacterInfo();
+        });
+
+        heroInfo.show();
+    }
+
+    function hideCharacterInfo() {
+        $('#hero-info').hide();
     }
 
     function selectCharacter(character) {

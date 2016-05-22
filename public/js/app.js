@@ -8,15 +8,11 @@ L.Text = L.Layer.extend({
         this.text = _text;
         this.coordinates = _coordinates;
         this.size = _size;
-        console.log('init');
-
     },
 
     onAdd: function (map) {
         this._map = map;
         this._ctx = this._map._renderer._ctx;
-
-        console.log('onAdd');
         this._drawText();
 
         map
@@ -27,7 +23,6 @@ L.Text = L.Layer.extend({
     },
 
     onRemove: function (map) {
-        console.log('remove');
         map.off({
             moveend: this._drawText,
             viewreset: this._onViewReset
@@ -60,11 +55,7 @@ L.Text = L.Layer.extend({
 
     _drawText: function () {
         var pos = this._map.latLngToLayerPoint(this.coordinates);
-        console.log(this._map.getZoom());
         var size = this.size * Math.pow(2, this._map.getZoom());
-        console.log(size);
-
-        console.log('draw Text');
 
         if (this.text !== '') {
             this._ctx.fillStyle = this.color || '#D0D0DC';
@@ -109,6 +100,7 @@ overwatchCharacters.Character = function(data, map) {
 
     fontsize = baseFonzSize * map.scaleFactor;
 
+    this.abilities = data.abilities;
     this.name = data.name;
     this.picture = data.picture;
     this.text = new L.Text(this.name, textPostion, fontsize);
@@ -138,7 +130,7 @@ overwatchCharacters.Character = function(data, map) {
     );
 
     this.frame.on('click', function() {
-        //map.showCharacterInfo(that);
+        map.showCharacterInfo(that);
     });
 
     this.drawText = function() {
@@ -153,6 +145,7 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
     var zoomReference = 4;
     var scaleFactor = 1 / Math.pow(2, zoomReference);
     var that = this;
+    var heroInfo;
 
     var templates = {
         episodePicker: $('#t-episode-picker').html()
@@ -162,11 +155,12 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
 
     init();
     var characters = createCharacters(rawCharacters);
-    console.log(characters.length);
     var currentCharacters = characters;
     updateCharacters([]);
 
     function init() {
+        heroInfo = $('#hero-info');
+        that.selectCharacter = selectCharacter;
         that.showCharacterInfo = showCharacterInfo;
         that.scaledCoordinates = scaledCoordinates;
         that.scaleFactor = scaleFactor;
@@ -187,7 +181,7 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
                 attributionControl: false,
                 inertia: false,
                 zoom: 0,
-                maxZoom: 5,
+                maxZoom: 4,
                 preferCanvas: true
             }
         );
@@ -290,8 +284,21 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
     }
 
     function showCharacterInfo(character) {
-        $('#info-box').html(character.name);
-        console.log(character);
+        var infoTemplate = $('#t-hero-info').html();
+        var abilityTemplateFn = _.template($('#t-ability').html());
+        heroInfo.html(_.template(infoTemplate)({hero: character, renderAbility: abilityTemplateFn}));
+        console.log('show info');
+
+        var closeButton = $('#hero-info-close');
+        closeButton.on('click', function() {
+            hideCharacterInfo();
+        });
+
+        heroInfo.show();
+    }
+
+    function hideCharacterInfo() {
+        $('#hero-info').hide();
     }
 
     function selectCharacter(character) {

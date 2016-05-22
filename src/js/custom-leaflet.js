@@ -6,15 +6,11 @@ L.Text = L.Layer.extend({
         this.text = _text;
         this.coordinates = _coordinates;
         this.size = _size;
-        console.log('init');
-
     },
 
     onAdd: function (map) {
         this._map = map;
         this._ctx = this._map._renderer._ctx;
-
-        console.log('onAdd');
         this._drawText();
 
         map
@@ -25,7 +21,6 @@ L.Text = L.Layer.extend({
     },
 
     onRemove: function (map) {
-        console.log('remove');
         map.off({
             moveend: this._drawText,
             viewreset: this._onViewReset
@@ -58,11 +53,7 @@ L.Text = L.Layer.extend({
 
     _drawText: function () {
         var pos = this._map.latLngToLayerPoint(this.coordinates);
-        console.log(this._map.getZoom());
         var size = this.size * Math.pow(2, this._map.getZoom());
-        console.log(size);
-
-        console.log('draw Text');
 
         if (this.text !== '') {
             this._ctx.fillStyle = this.color || '#D0D0DC';

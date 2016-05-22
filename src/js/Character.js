@@ -11,6 +11,7 @@ overwatchCharacters.Character = function(data, map) {
 
     fontsize = baseFonzSize * map.scaleFactor;
 
+    this.abilities = data.abilities;
     this.name = data.name;
     this.picture = data.picture;
     this.text = new L.Text(this.name, textPostion, fontsize);
@@ -40,7 +41,7 @@ overwatchCharacters.Character = function(data, map) {
     );
 
     this.frame.on('click', function() {
-        //map.showCharacterInfo(that);
+        map.showCharacterInfo(that);
     });
 
     this.drawText = function() {
