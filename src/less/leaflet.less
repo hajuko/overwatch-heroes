@@ -1,0 +1,27 @@
+.leaflet-control-container > div {
+    margin: 10px;
+    bottom: 0;
+    top: auto;
+    left: calc(~"50% - 26px");
+
+    .leaflet-control-zoom {
+        margin: 0;
+        float: left;
+
+        > a {
+            float: left;
+        }
+    }
+
+    .leaflet-control-zoom-in {
+        border-right: 1px solid #ccc;
+        border-bottom: none;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 4px;
+    }
+
+    .leaflet-control-zoom-out {
+        border-top-right-radius: 4px;
+        border-bottom-left-radius: 0;
+    }
+}

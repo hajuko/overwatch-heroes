@@ -1,0 +1,11 @@
+{
+  "name": "got-characters",
+  "version": "1.0.0",
+  "directory": "src/libraries",
+  "dependencies": {
+    "d3": "3.5.x",
+    "jquery": "2.1.x",
+    "requirejs": "2.1.17",
+    "leaflet": "0.7.0"
+  }
+}
