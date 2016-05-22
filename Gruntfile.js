@@ -18,7 +18,7 @@ module.exports = function(grunt) {
         },
         watch: {
             styles: {
-                files: ['src/less/**/*.less', 'src/js/**/*.js', 'src/data/characters.yml', 'crawler/**/*.js'],
+                files: ['src/less/**/*.less', 'src/js/**/*.js', 'src/data/*', 'crawler/**/*.js'],
                 tasks: ['less', 'concat', 'yaml'],
                 options: {
                     nospawn: true,
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
                     space: 4
                 },
                 files: {
-                    'src/data/characters.json': ['src/data/characters.yml']
+                    'src/data/heroes.json': ['src/data/heroes.yml']
                 }
             }
         }

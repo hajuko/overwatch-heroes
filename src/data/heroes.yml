@@ -1,0 +1,533 @@
+-
+  name: Genji
+  picture: genji.png
+  class: offense
+  hp: 200
+  armor: 0
+  difficulty: 3
+  abilities:
+    -
+      name: Cyber Agility
+      type: passive
+    -
+      name: Shuriken
+      type: damage
+    -
+      name: Fan of Blades
+      type: damage
+    -
+      name: Swift Strike
+      type: damage
+    -
+      name: Deflect
+      type: defensive
+    -
+      name: Dragonblade
+      type: ultimate
+
+-
+  name: McCree
+  picture: mccree.png
+  class: offense
+  hp: 200
+  armor: 0
+  difficulty: 2
+  abilities:
+    -
+      name: Peacekeeper
+      type: damage
+    -
+      name: Peacekeeper (Alt-Fire)
+      type: damage
+    -
+      name: Flashbang
+      type: damage
+    -
+      name: Combat Roll
+      type: utility
+    -
+      name: Deadeye
+      type: ultimate
+
+-
+  name: Pharah
+  picture: pharah.png
+  class: offense
+  hp: 200
+  armor: 0
+  difficulty: 1
+  abilities:
+    -
+      name: Rocket Launcher
+      type: damage
+    -
+      name: Concussive Blast
+      type: damage
+    -
+      name: Jump Jet
+      type: utility
+    -
+      name: Hover Jets
+      type: utility
+    -
+      name: Barrage
+      type: ultimate
+
+-
+  name: Reaper
+  picture: reaper.png
+  class: offense
+  hp: 250
+  armor: 0
+  difficulty: 1
+  abilities:
+    -
+      name: Hellfire Shotguns
+      type: damage
+    -
+      name: Wraith Form
+      type: utility
+    -
+      name: Shadow Step
+      type: utility
+    -
+      name: The Reaping
+      type: passive
+    -
+      name: Death Blossom
+      type: ultimate
+
+-
+  name: Soldier 76
+  picture: solider76.png
+  class: offense
+  hp: 200
+  armor: 0
+  difficulty: 1
+  abilities:
+    -
+      name: Heavy Pulse Rifle
+      type: damage
+    -
+      name: Helix Rockets
+      type: damage
+    -
+      name: Sprint
+      type: utility
+    -
+      name: Biotic Field
+      type: heal
+    -
+      name: Tactical Visor
+      type: ultimate
+
+-
+  name: Tracer
+  picture: tracer.png
+  class: offense
+  hp: 150
+  armor: 0
+  difficulty: 2
+  abilities:
+    -
+      name: Pulse Pistols
+      type: damage
+    -
+      name: Blink
+      type: utility
+    -
+      name: Recall
+      type: utility
+    -
+      name: Pulse Bomb
+      type: ultimate
+
+-
+  name: Bastion
+  picture: bastion.png
+  class: defense
+  hp: 300
+  armor: 100
+  difficulty: 1
+  abilities:
+    -
+      name: 'Configuration: Recon'
+      type: damage
+    -
+      name: 'Configuration: Sentry'
+      type: damage
+    -
+      name: Reconfigure
+      type: utility
+    -
+      name: Self-Repair
+      type: heal
+    -
+      name: 'Configuration: Tank'
+      type: ultimate
+
+-
+  name: Hanzo
+  picture: hanzo.png
+  class: defense
+  hp: 200
+  armor: 0
+  difficulty: 3
+  abilities:
+    -
+      name: Storm Bow
+      type: damage
+    -
+      name: Sonic Arrow
+      type: damage
+    -
+      name: Scatter Arrow
+      type: damage
+    -
+      name: Wall Climb
+      type: utility
+    -
+      name: Dragonstrike
+      type: ultimate
+
+-
+  name: Junkrat
+  picture: junkrat.png
+  class: defense
+  hp: 200
+  armor: 0
+  difficulty: 2
+  abilities:
+    -
+      name: Frag Launcher
+      type: damage
+    -
+      name: Concussion Mine
+      type: damage
+    -
+      name: Steel Trap
+      type: damage
+    -
+      name: Total Mayhem
+      type: passive
+    -
+      name: Rip-Tire
+      type: ultimate
+
+-
+  name: Mei
+  picture: mei.png
+  class: defense
+  hp: 250
+  armor: 0
+  difficulty: 3
+  abilities:
+    -
+      name: Endothermic Blaster
+      type: damage
+    -
+      name: Icicle
+      type: damage
+    -
+      name: Cryo-Freeze
+      type: heal
+    -
+      name: Ice Wall
+      type: utility
+    -
+      name: Blizzard
+      type: ultimate
+
+-
+  name: Torbjörn
+  picture: torbjoern.png
+  class: defense
+  hp: 200
+  armor: 0
+  difficulty: 2
+  abilities:
+    -
+      name: Rivet Gun
+      type: damage
+    -
+      name: Rivet Gun (Alt-Fire)
+      type: damage
+    -
+      name: Forge Hammer
+      type: damage
+    -
+      name: Armor Pack
+      type: utility
+    -
+      name: Build Turret
+      type: utility
+    -
+      name: Molten Core
+      type: ultimate
+    -
+      name: Turret
+      type: multilevel
+
+-
+  name: Widowmaker
+  picture: widowmaker.png
+  class: defense
+  hp: 200
+  armor: 0
+  difficulty: 2
+  abilities:
+    -
+      name: 'Widow's Kiss: Assault'
+      type: damage
+    -
+      name: 'Widow's Kiss: Sniper'
+      type: damage
+    -
+      name: Venom Mine
+      type: damage
+    -
+      name: Grappling Hook
+      type: utility
+    -
+      name: Infra-Sight
+      type: ultimate
+
+-
+  name: D. Va
+  picture: dva.png
+  class: tank
+  hp: 100
+  armor: 400
+  difficulty: 2
+  abilities:
+    -
+      name: 'Pilot: Light Gun'
+      type: damage
+    -
+      name: 'Mech: Fusion Cannons'
+      type: damage
+    -
+      name: 'Mech: Boosters'
+      type: damage
+    -
+      name: 'Mech: Defense Matrix'
+      type: utility
+    -
+      name: 'Pilot: Call Mech'
+      type: ultimate
+    -
+      name: 'Mech: Self-Destruct'
+      type: ultimate
+
+-
+  name: Reinhardt
+  picture: reinhardt.png
+  class: tank
+  hp: 300
+  armor: 200
+  difficulty: 2
+  abilities:
+    -
+      name: Rocket Hammer
+      type: damage
+    -
+      name: Fire Strike
+      type: damage
+    -
+      name: Charge
+      type: damage
+    -
+      name: Barrier Field
+      type: shield
+    -
+      name: Earth Shatter
+      type: ultimate
+
+-
+  name: Roadhog
+  picture: roadhog.png
+  class: defense
+  hp: 600
+  armor: 0
+  difficulty: 2
+  abilities:
+    -
+      name: Scrap Gun
+      type: damage
+    -
+      name: Scrap Gun (Alt-Fire)
+      type: damage
+    -
+      name: Chain Hook
+      type: damage
+    -
+      name: Take a Breather
+      type: heal
+    -
+      name: Whole Hog
+      type: ultimate
+
+-
+  name: Winston
+  picture: winston.png
+  class: defense
+  hp: 400
+  armor: 100
+  difficulty: 2
+  abilities:
+    -
+      name: Tesla Cannon
+      type: damage
+    -
+      name: Jump Pack
+      type: damage
+    -
+      name: Barrier Projector
+      type: shield
+    -
+      name: Primal Rage
+      type: ultimate
+
+
+-
+  name: Zarya
+  picture: zarya.png
+  class: defense
+  hp: 200
+  armor: 0
+  shield: 200
+  difficulty: 3
+  abilities:
+    -
+      name: Particle Cannon
+      type: damage
+    -
+      name: Particle Cannon (Alt-Fire)
+      type: damage
+    -
+      name: Particle Barrier
+      type: shield
+    -
+      name: Projected Barrier
+      type: shield
+    -
+      name: Energy
+      type: passive
+    -
+      name: Graviton Surge
+      type: ultimate
+
+-
+  name: Lúcio
+  picture: lucio.png
+  class: support
+  hp: 200
+  armor: 0
+  shield: 0
+  difficulty: 3
+  abilities:
+    -
+      name: Sonic Amplifier
+      type: damage
+    -
+      name: Soundwave
+      type: damage
+    -
+      name: 'Crossfade: Speed'
+      type: buff
+    -
+      name: 'Crossfade: Heal'
+      type: heal
+    -
+      name: 'Amp It Up: Speed'
+      type: buff
+    -
+      name: 'Amp it Up: Heal'
+      type: heal
+    -
+      name: Sound Barrier
+      type: ultimate
+
+-
+  name: Mercy
+  picture: mercy.png
+  class: support
+  hp: 200
+  armor: 0
+  shield: 0
+  difficulty: 1
+  abilities:
+    -
+      name: Caduceus Blaster
+      type: damage
+    -
+      name: 'Caduceus Staff: Heal'
+      type: heal
+    -
+      name: 'Caduceus Staff: Damage'
+      type: buff
+    -
+      name: Guardian Angel
+      type: utility
+    -
+      name: 'Angelic Descent: Glide'
+      type: utility
+    -
+      name: 'Angelic Descent: Self Heal'
+      type: passive
+    -
+      name: Resurrect
+      type: ultimate
+
+-
+  name: Symmetra
+  picture: symmetra.png
+  class: support
+  hp: 100
+  armor: 0
+  shield: 100
+  difficulty: 2
+  abilities:
+    -
+      name: Photon Projector
+      type: damage
+    -
+      name: Photon Projector (Alt-Fire)
+      type: heal
+    -
+      name: 'Sentry Turret: Build'
+      type: utility
+    -
+      name: 'Sentry Turret: Attack'
+      type: damage
+    -
+      name: Photon Shield
+      type: shield
+    -
+      name: Teleporter
+      type: ultimate
+
+-
+  name: Zenyatta
+  picture: zenyatta.png
+  class: support
+  hp: 50
+  armor: 0
+  shield: 100
+  difficulty: 3
+  abilities:
+    -
+      name: Orb of Destruction
+      type: damage
+    -
+      name: Orb of Destuction (Alt-Fire)
+      type: damage
+    -
+      name: Orb of Harmony
+      type: heal
+    -
+      name: Orb of Discord
+      type: debuff
+    -
+      name: Trancendence
+      type: ultimate

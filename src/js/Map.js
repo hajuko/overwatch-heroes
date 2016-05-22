@@ -1,4 +1,4 @@
-got.Map = function(settings, rawCharacters) {
+overwatchCharacters.Map = function(settings, rawCharacters) {
     var map;
     var tileLayer;
     var characterLayer = new L.layerGroup();
@@ -10,15 +10,11 @@ got.Map = function(settings, rawCharacters) {
         episodePicker: $('#t-episode-picker').html()
     };
 
-    addEpisodePicker();
-
-    var $episodeSelection = $('#episode-selection');
-    var $seasonSelection = $('#season-selection');
+    //addEpisodePicker();
 
     init();
     var characters = createCharacters(rawCharacters);
     var currentCharacters = characters;
-    //selectEpisodeAndSeason();
     updateCharacters([]);
 
     function init() {
@@ -66,8 +62,8 @@ got.Map = function(settings, rawCharacters) {
             }
         );
 
-        $episodeSelection.on('change', selectEpisodeAndSeason);
-        $seasonSelection.on('change', selectEpisodeAndSeason);
+        //$episodeSelection.on('change', selectEpisodeAndSeason);
+        //$seasonSelection.on('change', selectEpisodeAndSeason);
 
         $('#search .typeahead').typeahead(
             {
@@ -87,7 +83,7 @@ got.Map = function(settings, rawCharacters) {
     }
 
     function selectEpisodeAndSeason() {
-        var episodeFilter = new got.EpisodeFilter({
+        var episodeFilter = new overwatchCharacters.EpisodeFilter({
             season: $seasonSelection.val(),
             episode: $episodeSelection.val()
         });
@@ -104,21 +100,13 @@ got.Map = function(settings, rawCharacters) {
         var chars = [];
 
         characters.forEach(function(rawCharacter, i) {
-            addImageUrls(rawCharacter.pictures);
-            var character = new got.Character(rawCharacter, that);
+            rawCharacter.picture = settings.imagePath + rawCharacter.picture;
+            var character = new overwatchCharacters.Character(rawCharacter, that);
 
             chars.push(character);
         });
 
         return chars;
-    }
-
-    function addImageUrls(pictures) {
-        Object.keys(pictures).forEach(function(key) {
-            pictures[key] = settings.imagePath + pictures[key];
-
-        });
-
     }
 
     function clearCharacters() {
@@ -145,6 +133,7 @@ got.Map = function(settings, rawCharacters) {
 
     function addCharacter(character, layer) {
         character.image.addTo(layer);
+        character.textBackground.addTo(layer);
         character.frame.addTo(layer);
         character.text.addTo(layer);
     }
@@ -152,12 +141,6 @@ got.Map = function(settings, rawCharacters) {
     function showCharacterInfo(character) {
         $('#info-box').html(character.name);
         console.log(character);
-    }
-
-    function addEpisodePicker() {
-        $('#episode-picker').html(
-            _.template(templates.episodePicker)()
-        );
     }
 
     function selectCharacter(character) {
@@ -179,7 +162,7 @@ got.Map = function(settings, rawCharacters) {
         });
 
         cb(matches);
-    };
+    }
 
     function getCurrentCharacters() {
         return currentCharacters;

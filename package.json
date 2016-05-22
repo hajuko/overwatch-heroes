@@ -2,6 +2,7 @@
   "name": "got-characters",
   "version": "1.0.0",
   "dependencies": {
+    "express": "^4.13.4",
     "gm": "^1.22.0",
     "grunt": "^0.4.5",
     "imagemagick": "^0.1.3"

@@ -1,14 +1,14 @@
 $(function() {
     var settings = {
         characterSize: 100,
-        imagePath: 'src/img/characters/'
+        imagePath: 'src/data/img/'
     };
 
     $.ajax({
         dataType: "json",
-        url: 'src/data/character_raw.json',
+        url: 'src/data/heroes.json',
         success: function(result) {
-            new got.Map(settings, result);
+            new overwatchCharacters.Map(settings, result);
         }
     });
 });

@@ -65,7 +65,7 @@ L.Text = L.Layer.extend({
         console.log('draw Text');
 
         if (this.text !== '') {
-            this._ctx.fillStyle = this.color || '#000';
+            this._ctx.fillStyle = this.color || '#D0D0DC';
             this._ctx.globalAlpha = 1;
             this._ctx.font = size + 'px ' + this.font;
             this._ctx.textBaseline = 'middle';
