@@ -10,6 +10,7 @@
     -
       name: Cyber Agility
       type: passive
+      image: genji/abilities/4.png
     -
       name: Shuriken
       type: damage
