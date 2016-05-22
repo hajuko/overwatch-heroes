@@ -12,7 +12,7 @@ module.exports = function(grunt) {
                 },
                 files: {
                     // Destination file and source file
-                    'dist/got-characters.css': 'src/less/main.less'
+                    'public/css/got-characters.css': 'src/less/main.less'
                 }
             }
         },
