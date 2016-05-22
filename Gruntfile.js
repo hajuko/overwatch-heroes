@@ -40,7 +40,7 @@ module.exports = function(grunt) {
                     'src/js/Map.js',
                     'src/js/main.js'
                 ],
-                dest: 'app.js'
+                dest: 'public/js/app.js'
             }
         },
         yaml: {
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
                     space: 4
                 },
                 files: {
-                    'src/data/heroes.json': ['src/data/heroes.yml']
+                    'public/data/heroes.json': ['src/data/heroes.yml']
                 }
             }
         }

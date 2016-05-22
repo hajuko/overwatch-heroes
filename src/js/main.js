@@ -1,12 +1,12 @@
 $(function() {
     var settings = {
         characterSize: 100,
-        imagePath: 'src/data/img/'
+        imagePath: 'img/'
     };
 
     $.ajax({
         dataType: "json",
-        url: 'src/data/heroes.json',
+        url: 'data/heroes.json',
         success: function(result) {
             new overwatchCharacters.Map(settings, result);
         }

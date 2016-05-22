@@ -162,6 +162,7 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
 
     init();
     var characters = createCharacters(rawCharacters);
+    console.log(characters.length);
     var currentCharacters = characters;
     updateCharacters([]);
 
@@ -195,10 +196,10 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
 
         var bounds = L.latLngBounds(
             scaledCoordinates([0, 0]),
-            scaledCoordinates([4000, 4000])
+            scaledCoordinates([1330, 2060])
         );
 
-        var border = L.rectangle(bounds, {fillOpacity: 0});
+        var border = L.rectangle(bounds, {fillOpacity: 0, color: '#28354F', opacity: 0.9, weight: 1});
 
         border.addTo(map);
         map.addLayer(characterLayer);
@@ -246,8 +247,10 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
 
     function createCharacters(characters) {
         var chars = [];
+        var coordinates = createCoordinates();
 
         characters.forEach(function(rawCharacter, i) {
+            rawCharacter.coordinates = coordinates[i];
             rawCharacter.picture = settings.imagePath + rawCharacter.picture;
             var character = new overwatchCharacters.Character(rawCharacter, that);
 
@@ -315,17 +318,30 @@ overwatchCharacters.Map = function(settings, rawCharacters) {
     function getCurrentCharacters() {
         return currentCharacters;
     }
+
+    function createCoordinates() {
+        var results = [];
+        var x = 280;
+        var y = 410;
+        for (var i = 1; i <= 7; i++) {
+            for (var j = 1; j <= 7; j++) {
+                results.push([i * y - 310, j * x - 180]);
+            }
+        }
+
+        return results;
+    }
 };
 
 $(function() {
     var settings = {
         characterSize: 100,
-        imagePath: 'src/data/img/'
+        imagePath: 'img/'
     };
 
     $.ajax({
         dataType: "json",
-        url: 'src/data/heroes.json',
+        url: 'data/heroes.json',
         success: function(result) {
             new overwatchCharacters.Map(settings, result);
         }
