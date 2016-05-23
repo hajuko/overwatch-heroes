@@ -51,27 +51,27 @@
             {
                 "name": "Peacekeeper",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "mccree/abilities/1.png"
             },
             {
                 "name": "Peacekeeper (Alt-Fire)",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "mccree/abilities/1.png"
             },
             {
                 "name": "Flashbang",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "mccree/abilities/3.png"
             },
             {
                 "name": "Combat Roll",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "mccree/abilities/2.png"
             },
             {
                 "name": "Deadeye",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "mccree/abilities/4.png"
             }
         ]
     },
@@ -87,27 +87,26 @@
             {
                 "name": "Rocket Launcher",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "pharah/abilities/1.png"
             },
             {
                 "name": "Concussive Blast",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "pharah/abilities/3.png"
             },
             {
                 "name": "Jump Jet",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "pharah/abilities/2.png"
             },
             {
                 "name": "Hover Jets",
-                "type": "utility",
-                "image": "genji/abilities/4.png"
+                "type": "utility"
             },
             {
                 "name": "Barrage",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "pharah/abilities/4.png"
             }
         ]
     },
@@ -123,27 +122,26 @@
             {
                 "name": "Hellfire Shotguns",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "reaper/abilities/1.png"
             },
             {
                 "name": "Wraith Form",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "reaper/abilities/2.png"
             },
             {
                 "name": "Shadow Step",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "reaper/abilities/3.png"
             },
             {
                 "name": "The Reaping",
-                "type": "passive",
-                "image": "genji/abilities/4.png"
+                "type": "passive"
             },
             {
                 "name": "Death Blossom",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "reaper/abilities/4.png"
             }
         ]
     },
@@ -159,27 +157,27 @@
             {
                 "name": "Heavy Pulse Rifle",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "soldier76/abilities/1.png"
             },
             {
                 "name": "Helix Rockets",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "soldier76/abilities/2.png"
             },
             {
                 "name": "Sprint",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "soldier76/abilities/3.png"
             },
             {
                 "name": "Biotic Field",
                 "type": "heal",
-                "image": "genji/abilities/4.png"
+                "image": "soldier76/abilities/4.png"
             },
             {
                 "name": "Tactical Visor",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "soldier76/abilities/5.png"
             }
         ]
     },
@@ -195,22 +193,22 @@
             {
                 "name": "Pulse Pistols",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "tracer/abilities/1.png"
             },
             {
                 "name": "Blink",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "tracer/abilities/2.png"
             },
             {
                 "name": "Recall",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "tracer/abilities/3.png"
             },
             {
                 "name": "Pulse Bomb",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "tracer/abilities/4.png"
             }
         ]
     },
@@ -226,27 +224,27 @@
             {
                 "name": "Configuration: Recon",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "bastion/abilities/1.png"
             },
             {
                 "name": "Configuration: Sentry",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "bastion/abilities/2.png"
             },
             {
                 "name": "Reconfigure",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "bastion/abilities/3.png"
             },
             {
                 "name": "Self-Repair",
                 "type": "heal",
-                "image": "genji/abilities/4.png"
+                "image": "bastion/abilities/4.png"
             },
             {
                 "name": "Configuration: Tank",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "bastion/abilities/5.png"
             }
         ]
     },
@@ -262,27 +260,26 @@
             {
                 "name": "Storm Bow",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "hanzo/abilities/1.png"
             },
             {
                 "name": "Sonic Arrow",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "hanzo/abilities/2.png"
             },
             {
                 "name": "Scatter Arrow",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "hanzo/abilities/3.png"
             },
             {
                 "name": "Wall Climb",
-                "type": "utility",
-                "image": "genji/abilities/4.png"
+                "type": "utility"
             },
             {
                 "name": "Dragonstrike",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "hanzo/abilities/4.png"
             }
         ]
     },
@@ -298,27 +295,27 @@
             {
                 "name": "Frag Launcher",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "junkrat/abilities/1.png"
             },
             {
                 "name": "Concussion Mine",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "junkrat/abilities/2.png"
             },
             {
                 "name": "Steel Trap",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "junkrat/abilities/3.png"
             },
             {
                 "name": "Total Mayhem",
                 "type": "passive",
-                "image": "genji/abilities/4.png"
+                "image": "junkrat/abilities/4.png"
             },
             {
                 "name": "Rip-Tire",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "junkrat/abilities/5.png"
             }
         ]
     },
@@ -334,27 +331,27 @@
             {
                 "name": "Endothermic Blaster",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "mei/abilities/1.png"
             },
             {
                 "name": "Icicle",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "mei/abilities/1.png"
             },
             {
                 "name": "Cryo-Freeze",
                 "type": "heal",
-                "image": "genji/abilities/4.png"
+                "image": "mei/abilities/2.png"
             },
             {
                 "name": "Ice Wall",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "mei/abilities/3.png"
             },
             {
                 "name": "Blizzard",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "mei/abilities/4.png"
             }
         ]
     },
@@ -370,37 +367,37 @@
             {
                 "name": "Rivet Gun",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "torbjorn/abilities/1.png"
             },
             {
                 "name": "Rivet Gun (Alt-Fire)",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "torbjorn/abilities/1.png"
             },
             {
                 "name": "Forge Hammer",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "torbjorn/abilities/2.png"
             },
             {
                 "name": "Armor Pack",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "torbjorn/abilities/4.png"
             },
             {
                 "name": "Build Turret",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "torbjorn/abilities/3.png"
             },
             {
                 "name": "Molten Core",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "torbjorn/abilities/5.png"
             },
             {
                 "name": "Turret",
                 "type": "multilevel",
-                "image": "genji/abilities/4.png"
+                "image": "torbjorn/abilities/3.png"
             }
         ]
     },
@@ -417,28 +414,28 @@
                 "name": "Widow",
                 "s Kiss": "Assault'",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "widowmaker/abilities/1.png"
             },
             {
                 "name": "Widow",
                 "s Kiss": "Sniper'",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "widowmaker/abilities/1.png"
             },
             {
                 "name": "Venom Mine",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "widowmaker/abilities/3.png"
             },
             {
                 "name": "Grappling Hook",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "widowmaker/abilities/2.png"
             },
             {
                 "name": "Infra-Sight",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "widowmaker/abilities/4.png"
             }
         ]
     },
@@ -454,32 +451,32 @@
             {
                 "name": "Pilot: Light Gun",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "dva/abilities/2.png"
             },
             {
                 "name": "Mech: Fusion Cannons",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "dva/abilities/1.png"
             },
             {
                 "name": "Mech: Boosters",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "dva/abilities/3.png"
             },
             {
                 "name": "Mech: Defense Matrix",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "dva/abilities/4.png"
             },
             {
                 "name": "Pilot: Call Mech",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "dva/abilities/6.png"
             },
             {
                 "name": "Mech: Self-Destruct",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "dva/abilities/.png"
             }
         ]
     },
@@ -495,27 +492,27 @@
             {
                 "name": "Rocket Hammer",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "reinhardt/abilities/1.png"
             },
             {
                 "name": "Fire Strike",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "reinhardt/abilities/4.png"
             },
             {
                 "name": "Charge",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "reinhardt/abilities/3.png"
             },
             {
                 "name": "Barrier Field",
                 "type": "shield",
-                "image": "genji/abilities/4.png"
+                "image": "reinhardt/abilities/2.png"
             },
             {
                 "name": "Earth Shatter",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "reinhardt/abilities/5.png"
             }
         ]
     },
@@ -531,27 +528,27 @@
             {
                 "name": "Scrap Gun",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "roadhog/abilities/1.png"
             },
             {
                 "name": "Scrap Gun (Alt-Fire)",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "roadhog/abilities/1.png"
             },
             {
                 "name": "Chain Hook",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "roadhog/abilities/3.png"
             },
             {
                 "name": "Take a Breather",
                 "type": "heal",
-                "image": "genji/abilities/4.png"
+                "image": "roadhog/abilities/2.png"
             },
             {
                 "name": "Whole Hog",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "roadhog/abilities/4.png"
             }
         ]
     },
@@ -567,22 +564,22 @@
             {
                 "name": "Tesla Cannon",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "winston/abilities/1.png"
             },
             {
                 "name": "Jump Pack",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "winston/abilities/2.png"
             },
             {
                 "name": "Barrier Projector",
                 "type": "shield",
-                "image": "genji/abilities/4.png"
+                "image": "winston/abilities/3.png"
             },
             {
                 "name": "Primal Rage",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "winston/abilities/4.png"
             }
         ]
     },
@@ -599,32 +596,31 @@
             {
                 "name": "Particle Cannon",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "zarya/abilities/1.png"
             },
             {
                 "name": "Particle Cannon (Alt-Fire)",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "zarya/abilities/1.png"
             },
             {
                 "name": "Particle Barrier",
                 "type": "shield",
-                "image": "genji/abilities/4.png"
+                "image": "zarya/abilities/3.png"
             },
             {
                 "name": "Projected Barrier",
                 "type": "shield",
-                "image": "genji/abilities/4.png"
+                "image": "zarya/abilities/2.png"
             },
             {
                 "name": "Energy",
-                "type": "passive",
-                "image": "genji/abilities/4.png"
+                "type": "passive"
             },
             {
                 "name": "Graviton Surge",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "zarya/abilities/4.png"
             }
         ]
     },
@@ -641,37 +637,37 @@
             {
                 "name": "Sonic Amplifier",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "lucio/abilities/1.png"
             },
             {
                 "name": "Soundwave",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "lucio/abilities/1.png"
             },
             {
                 "name": "Crossfade: Speed",
                 "type": "buff",
-                "image": "genji/abilities/4.png"
+                "image": "lucio/abilities/2.png"
             },
             {
                 "name": "Crossfade: Heal",
                 "type": "heal",
-                "image": "genji/abilities/4.png"
+                "image": "lucio/abilities/2.png"
             },
             {
                 "name": "Amp It Up: Speed",
                 "type": "buff",
-                "image": "genji/abilities/4.png"
+                "image": "lucio/abilities/3.png"
             },
             {
                 "name": "Amp it Up: Heal",
                 "type": "heal",
-                "image": "genji/abilities/4.png"
+                "image": "lucio/abilities/3.png"
             },
             {
                 "name": "Sound Barrier",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "lucio/abilities/4.png"
             }
         ]
     },
@@ -688,37 +684,37 @@
             {
                 "name": "Caduceus Blaster",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "mercy/abilities/2.png"
             },
             {
                 "name": "Caduceus Staff: Heal",
                 "type": "heal",
-                "image": "genji/abilities/4.png"
+                "image": "mercy/abilities/1.png"
             },
             {
                 "name": "Caduceus Staff: Damage",
                 "type": "buff",
-                "image": "genji/abilities/4.png"
+                "image": "mercy/abilities/1.png"
             },
             {
                 "name": "Guardian Angel",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "mercy/abilities/3.png"
             },
             {
                 "name": "Angelic Descent: Glide",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "mercy/abilities/4.png"
             },
             {
                 "name": "Angelic Descent: Self Heal",
                 "type": "passive",
-                "image": "genji/abilities/4.png"
+                "image": "mercy/abilities/4.png"
             },
             {
                 "name": "Resurrect",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "mercy/abilities/5.png"
             }
         ]
     },
@@ -735,32 +731,32 @@
             {
                 "name": "Photon Projector",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "symmetra/abilities/1.png"
             },
             {
                 "name": "Photon Projector (Alt-Fire)",
                 "type": "heal",
-                "image": "genji/abilities/4.png"
+                "image": "symmetra/abilities/1.png"
             },
             {
                 "name": "Sentry Turret: Build",
                 "type": "utility",
-                "image": "genji/abilities/4.png"
+                "image": "symmetra/abilities/2.png"
             },
             {
                 "name": "Sentry Turret: Attack",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "symmetra/abilities/2.png"
             },
             {
                 "name": "Photon Shield",
                 "type": "shield",
-                "image": "genji/abilities/4.png"
+                "image": "symmetra/abilities/3.png"
             },
             {
                 "name": "Teleporter",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "symmetra/abilities/4.png"
             }
         ]
     },
@@ -777,27 +773,27 @@
             {
                 "name": "Orb of Destruction",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "zenyatta/abilities/1.png"
             },
             {
                 "name": "Orb of Destuction (Alt-Fire)",
                 "type": "damage",
-                "image": "genji/abilities/4.png"
+                "image": "zenyatta/abilities/1.png"
             },
             {
                 "name": "Orb of Harmony",
                 "type": "heal",
-                "image": "genji/abilities/4.png"
+                "image": "zenyatta/abilities/2.png"
             },
             {
                 "name": "Orb of Discord",
                 "type": "debuff",
-                "image": "genji/abilities/4.png"
+                "image": "zenyatta/abilities/3.png"
             },
             {
                 "name": "Trancendence",
                 "type": "ultimate",
-                "image": "genji/abilities/4.png"
+                "image": "zenyatta/abilities/4.png"
             }
         ]
     }
