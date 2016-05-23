@@ -1,6 +1,6 @@
 # WIP: Overheroes
 
-[![CircleCI](https://circleci.com/gh/overheroes/overwatch-heroes.svg?style=svg)](https://circleci.com/gh/overheroes/overwatch-heroes)
+[![CircleCI](https://circleci.com/gh/overheroes/overheroes-api.svg?style=svg)](https://circleci.com/gh/overheroes/overheroes-api)
 
 ui: https://overwatch-data.herokuapp.com/
 
