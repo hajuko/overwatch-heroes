@@ -14,22 +14,44 @@
       name: Shuriken
       type: damage
       image: genji/abilities/1.png
+      key: LM
+      ammo: 24
+      damage: 28
+      rps: 3
     -
       name: Fan of Blades
       type: damage
       image: genji/abilities/1.png
+      key: RM
+      ammo: 24
+      damage: 28
+      roundsPerSecond: 6
     -
       name: Swift Strike
       type: damage
       image: genji/abilities/3.png
+      key: SHIFT
+      cooldown: 8
+      damage: 50
+      range: 15
     -
       name: Deflect
       type: defensive
       image: genji/abilities/2.png
+      key: E
+      duration: 2
+      cooldown: 8
     -
       name: Dragonblade
       type: ultimate
       image: genji/abilities/4.png
+      key: Q
+      roundsPerSecond: 1
+      casttime: 1
+      duration: 8
+      damage: 120
+      range: 5
+      
 
 -
   name: McCree
