@@ -6,78 +6,41 @@ heroes.forEach(function(hero) {
     transform(hero);
 });
 
-fs.writeFileSync('tmp.json', JSON.stringify(heroes));
+fs.writeFileSync('heroes.json', JSON.stringify(heroes));
 
 function transform(hero) {
-    console.log(hero);
-    transformAttributes(hero);
+    //transformAttributes(hero);
     transformAbilities(hero);
 }
 
 function transformAbilities(hero) {
     hero.abilities.forEach(function(ability) {
-        ability.stats = [];
+        sortStats(ability);
+    });
+}
 
-        if (ability.type == 'damage' && ability.ammo) {
-            ability.type = 'attack';
-
-            addDamage(ability);
+function sortStats(ability) {
+    ability.stats.sort(function(a, b){
+        if (b.name == 'damage') {
+            return true;
+        } else {
+            return false;
         }
-
-        abilityStats.forEach(function(stat) {
-            if (ability[stat]) {
-                ability.stats.push({
-                    name: stat,
-                    value: ability[stat]
-                });
-            }
-
-            delete ability[stat];
-        });
-        console.log(ability);
     });
 }
 
 function addDamage(ability) {
-
-    var minDmg = ability.damage;
-    var maxDmg = ability.damageMax;
-
-    if (ability.damageMax && ability.numberOfPellets) {
-        maxDmg *= ability.numberOfPellets;
-    }
-
-    var dmgString = minDmg + '';
-
-
-    var maxDps;
-    var minDps = minDmg * ability.roundsPerSec;
-    var dpsString = minDps + '';
-
-    if (maxDmg) {
-        dmgString += '-' + maxDmg;
-        maxDps = maxDmg * ability.roundsPerSec;
-        dpsString += '-' + maxDps;
-    }
-
-
     ability.stats.push({
         name: 'damage',
-        value: dmgString
-    });
-
-    ability.stats.push({
-        name: 'dps',
-        value: dpsString
+        value: ability.damage
     });
 }
-
 
 
 function transformAttributes(hero) {
     hero.attributes = [];
 
-    hero.attributes.push({
+    hero.attributes.unshift({
         name: 'hp',
         value: hero.hp
     });
