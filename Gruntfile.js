@@ -10,7 +10,7 @@ module.exports = function(grunt) {
                     space: 4
                 },
                 files: {
-                    'public/heroes.json': ['src/heroes.yml']
+                    'public/data/heroes.json': ['src/heroes.yml']
                 }
             },
             test: {
