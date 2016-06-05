@@ -17,7 +17,7 @@
                 "image": "genji/abilities/1.png",
                 "key": "LM",
                 "damage": 28,
-                "rps": 3,
+                "roundsPerSec": 3,
                 "stats": [
                     {
                         "name": "damage",
@@ -25,7 +25,7 @@
                     },
                     {
                         "name": "dps",
-                        "value": "NaN"
+                        "value": 84
                     },
                     {
                         "name": "ammo",
@@ -57,11 +57,15 @@
             },
             {
                 "name": "Swift Strike",
-                "type": "damage",
+                "type": "attack",
                 "image": "genji/abilities/3.png",
                 "key": "SHIFT",
                 "damage": 50,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 50
+                    },
                     {
                         "name": "range",
                         "value": 15
@@ -181,11 +185,15 @@
             },
             {
                 "name": "Flashbang",
-                "type": "damage",
+                "type": "attack",
                 "image": "mccree/abilities/3.png",
                 "key": "E",
                 "damage": 25,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 25
+                    },
                     {
                         "name": "range",
                         "value": 5
@@ -273,11 +281,15 @@
             },
             {
                 "name": "Concussive Blast",
-                "type": "damage",
+                "type": "attack",
                 "image": "pharah/abilities/3.png",
                 "key": "E",
                 "damage": 120,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 120
+                    },
                     {
                         "name": "cooldown",
                         "value": 12
@@ -490,11 +502,15 @@
             },
             {
                 "name": "Helix Rockets",
-                "type": "damage",
+                "type": "attack",
                 "image": "soldier76/abilities/2.png",
                 "key": "RM",
                 "damage": 120,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 120
+                    },
                     {
                         "name": "cooldown",
                         "value": 8
@@ -750,8 +766,11 @@
                 "type": "ultimate",
                 "image": "bastion/abilities/5.png",
                 "key": "Q",
-                "damage": 205,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 205
+                    },
                     {
                         "name": "duration",
                         "value": 8
@@ -950,11 +969,15 @@
             },
             {
                 "name": "Concussion Mine",
-                "type": "damage",
+                "type": "attack",
                 "image": "junkrat/abilities/2.png",
                 "key": "SHIFT",
                 "damage": 120,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 120
+                    },
                     {
                         "name": "cooldown",
                         "value": 8
@@ -967,11 +990,15 @@
             },
             {
                 "name": "Steel Trap",
-                "type": "damage",
+                "type": "attack",
                 "image": "junkrat/abilities/3.png",
                 "key": "E",
                 "damage": 80,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 80
+                    },
                     {
                         "name": "cooldown",
                         "value": 10
@@ -1210,12 +1237,17 @@
             },
             {
                 "name": "Forge Hammer",
-                "type": "damage",
+                "type": "attack",
                 "image": "torbjorn/abilities/2.png",
                 "key": 2,
                 "roundsPerSec": 1,
                 "damage": 75,
-                "stats": []
+                "stats": [
+                    {
+                        "name": "damage",
+                        "value": 75
+                    }
+                ]
             },
             {
                 "name": "Armor Pack",
@@ -1350,11 +1382,15 @@
             },
             {
                 "name": "Venom Mine",
-                "type": "damage",
+                "type": "attack",
                 "image": "widowmaker/abilities/3.png",
                 "key": "E",
                 "damage": 75,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 75
+                    },
                     {
                         "name": "cooldown",
                         "value": 15
@@ -1463,11 +1499,15 @@
             },
             {
                 "name": "Mech: Boosters",
-                "type": "damage",
+                "type": "attack",
                 "image": "dva/abilities/3.png",
                 "key": "SHIFT",
                 "damage": 25,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 25
+                    },
                     {
                         "name": "range",
                         "value": 25
@@ -1549,12 +1589,16 @@
         "abilities": [
             {
                 "name": "Rocket Hammer",
-                "type": "damage",
+                "type": "attack",
                 "image": "reinhardt/abilities/1.png",
                 "key": "LM",
                 "roundsPerSec": 1,
                 "damage": 75,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 75
+                    },
                     {
                         "name": "range",
                         "value": 5
@@ -1563,11 +1607,15 @@
             },
             {
                 "name": "Fire Strike",
-                "type": "damage",
+                "type": "attack",
                 "image": "reinhardt/abilities/4.png",
                 "key": "E",
                 "damage": 100,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 100
+                    },
                     {
                         "name": "cooldown",
                         "value": 6
@@ -1580,11 +1628,15 @@
             },
             {
                 "name": "Charge",
-                "type": "damage",
+                "type": "attack",
                 "image": "reinhardt/abilities/3.png",
                 "key": "SHIFT",
                 "damage": 350,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 350
+                    },
                     {
                         "name": "cooldown",
                         "value": 10
@@ -1706,11 +1758,15 @@
             },
             {
                 "name": "Chain Hook",
-                "type": "damage",
+                "type": "attack",
                 "image": "roadhog/abilities/3.png",
                 "key": "SHIFT",
                 "damage": 30,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 30
+                    },
                     {
                         "name": "range",
                         "value": 22
@@ -1797,11 +1853,15 @@
             },
             {
                 "name": "Jump Pack",
-                "type": "damage",
+                "type": "attack",
                 "image": "winston/abilities/2.png",
                 "key": "SHIFT",
                 "damage": 50,
                 "stats": [
+                    {
+                        "name": "damage",
+                        "value": 50
+                    },
                     {
                         "name": "cooldown",
                         "value": 6
@@ -2346,10 +2406,13 @@
             },
             {
                 "name": "Sentry Turret: Attack",
-                "type": "damage",
+                "type": "attack",
                 "image": "symmetra/abilities/2.png",
                 "dps": 25,
                 "stats": [
+                    {
+                        "name": "damage"
+                    },
                     {
                         "name": "range",
                         "value": 10
