@@ -15,14 +15,14 @@
       image: genji/abilities/1.png
       key: LM
       damage: 28
-      rps: 3
+      roundsPerSec: 3
       stats:
         -
           name: damage
           value: '28'
         -
           name: dps
-          value: NaN
+          value: 84
         -
           name: ammo
           value: 24
