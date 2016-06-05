@@ -574,8 +574,10 @@
       type: ultimate
       image: bastion/abilities/5.png
       key: Q
-      damage: 205
       stats:
+        -
+          name: damage
+          value: 205
         -
           name: duration
           value: 8
