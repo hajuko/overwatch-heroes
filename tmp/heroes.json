@@ -68,11 +68,13 @@
                     },
                     {
                         "name": "range",
-                        "value": 15
+                        "value": 15,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     }
                 ]
             },
@@ -84,11 +86,13 @@
                 "stats": [
                     {
                         "name": "cooldown",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -102,15 +106,18 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 5
+                        "value": 5,
+                        "unit": "m"
                     },
                     {
                         "name": "duration",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     },
                     {
                         "name": "casttime",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     }
                 ]
             }
@@ -152,7 +159,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1.5
+                        "value": 1.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -179,7 +187,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -196,11 +205,13 @@
                     },
                     {
                         "name": "range",
-                        "value": 5
+                        "value": 5,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     }
                 ]
             },
@@ -212,11 +223,13 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 6
+                        "value": 6,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     }
                 ]
             },
@@ -230,7 +243,8 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 6
+                        "value": 6,
+                        "unit": "s"
                     }
                 ]
             }
@@ -271,11 +285,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 3
+                        "value": 3,
+                        "unit": "m"
                     }
                 ]
             },
@@ -292,11 +308,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 12
+                        "value": 12,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 8
+                        "value": 8,
+                        "unit": "m"
                     }
                 ]
             },
@@ -308,7 +326,8 @@
                 "stats": [
                     {
                         "name": "cooldown",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     }
                 ]
             },
@@ -316,15 +335,17 @@
                 "name": "Hover Jets",
                 "type": "utility",
                 "key": "SPACE",
-                "isCanneld": true,
+                "isChanneled": true,
                 "stats": [
                     {
                         "name": "cooldown",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -336,11 +357,12 @@
                 "roundsPerSec": 30,
                 "damage": 40,
                 "damageMax": 60,
-                "isCanneld": true,
+                "isChanneled": true,
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 3
+                        "value": 3,
+                        "unit": "s"
                     }
                 ]
             }
@@ -386,7 +408,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1.5
+                        "value": 1.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -398,15 +421,18 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 22
+                        "value": 22,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 3
+                        "value": 3,
+                        "unit": "s"
                     }
                 ]
             },
@@ -418,15 +444,18 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 35
+                        "value": 35,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     },
                     {
                         "name": "casttime",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -437,7 +466,8 @@
                 "stats": [
                     {
                         "name": "radius",
-                        "value": 5
+                        "value": 5,
+                        "unit": "m"
                     }
                 ]
             },
@@ -450,11 +480,13 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 3
+                        "value": 3,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 8
+                        "value": 8,
+                        "unit": "m"
                     }
                 ]
             }
@@ -496,7 +528,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     }
                 ]
             },
@@ -513,11 +546,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 2
+                        "value": 2,
+                        "unit": "m"
                     }
                 ]
             },
@@ -540,15 +575,18 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 15
+                        "value": 15,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 5
+                        "value": 5,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 5
+                        "value": 5,
+                        "unit": "m"
                     }
                 ]
             },
@@ -560,7 +598,8 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 6
+                        "value": 6,
+                        "unit": "s"
                     }
                 ]
             }
@@ -602,7 +641,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     }
                 ]
             },
@@ -614,11 +654,13 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 7
+                        "value": 7,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 3
+                        "value": 3,
+                        "unit": "s"
                     }
                 ]
             },
@@ -630,11 +672,13 @@
                 "stats": [
                     {
                         "name": "cooldown",
-                        "value": 12
+                        "value": 12,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 1.25
+                        "value": 1.25,
+                        "unit": "s"
                     }
                 ]
             },
@@ -647,11 +691,13 @@
                 "stats": [
                     {
                         "name": "casttime",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 3
+                        "value": 3,
+                        "unit": "m"
                     }
                 ]
             }
@@ -693,7 +739,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -720,7 +767,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 2.5
+                        "value": 2.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -732,7 +780,8 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     }
                 ]
             },
@@ -744,7 +793,8 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 0.5
+                        "value": 0.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -773,15 +823,18 @@
                     },
                     {
                         "name": "duration",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     },
                     {
                         "name": "casttime",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 4
+                        "value": 4,
+                        "unit": "m"
                     }
                 ]
             }
@@ -827,7 +880,8 @@
                     },
                     {
                         "name": "casttime",
-                        "value": 0.5
+                        "value": 0.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -845,7 +899,7 @@
                     },
                     {
                         "name": "dps",
-                        "value": "NaN-NaN"
+                        "value": "29-125"
                     },
                     {
                         "name": "ammo",
@@ -853,15 +907,18 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 20
+                        "value": 20,
+                        "unit": "s"
                     },
                     {
                         "name": "casttime",
-                        "value": 0.5
+                        "value": 0.5,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 10
+                        "value": 10,
+                        "unit": "m"
                     }
                 ]
             },
@@ -874,11 +931,7 @@
                 "stats": [
                     {
                         "name": "damage",
-                        "value": "75"
-                    },
-                    {
-                        "name": "dps",
-                        "value": "NaN"
+                        "value": "75-450"
                     },
                     {
                         "name": "numberOfPellets",
@@ -890,11 +943,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     },
                     {
                         "name": "casttime",
-                        "value": 0.5
+                        "value": 0.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -913,11 +968,13 @@
                 "stats": [
                     {
                         "name": "casttime",
-                        "value": 1.5
+                        "value": 1.5,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 4
+                        "value": 4,
+                        "unit": "m"
                     }
                 ]
             }
@@ -951,7 +1008,7 @@
                     },
                     {
                         "name": "dps",
-                        "value": "132.79999999999998-199.2"
+                        "value": "133-199"
                     },
                     {
                         "name": "ammo",
@@ -959,11 +1016,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1.5
+                        "value": 1.5,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 2
+                        "value": 2,
+                        "unit": "m"
                     }
                 ]
             },
@@ -980,11 +1039,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 3
+                        "value": 3,
+                        "unit": "m"
                     }
                 ]
             },
@@ -1001,15 +1062,18 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 3
+                        "value": 3,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 1
+                        "value": 1,
+                        "unit": "m"
                     }
                 ]
             },
@@ -1030,15 +1094,18 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     },
                     {
                         "name": "casttime",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 10
+                        "value": 10,
+                        "unit": "m"
                     }
                 ]
             }
@@ -1079,7 +1146,8 @@
                     },
                     {
                         "name": "range",
-                        "value": 10
+                        "value": 10,
+                        "unit": "m"
                     }
                 ]
             },
@@ -1098,7 +1166,7 @@
                     },
                     {
                         "name": "dps",
-                        "value": "39.6-135"
+                        "value": "40-135"
                     },
                     {
                         "name": "ammo",
@@ -1118,11 +1186,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 12
+                        "value": 12,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 4
+                        "value": 4,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1134,15 +1204,18 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 35
+                        "value": 35,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 4.5
+                        "value": 4.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1155,15 +1228,18 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 5
+                        "value": 5,
+                        "unit": "s"
                     },
                     {
                         "name": "casttime",
-                        "value": 1.5
+                        "value": 1.5,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 8
+                        "value": 8,
+                        "unit": "m"
                     }
                 ]
             }
@@ -1204,7 +1280,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1223,7 +1300,7 @@
                     },
                     {
                         "name": "dps",
-                        "value": "7.800000000000001-195"
+                        "value": "7.8-195"
                     },
                     {
                         "name": "numberOfPellets",
@@ -1264,7 +1341,8 @@
                 "stats": [
                     {
                         "name": "cooldown",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1276,7 +1354,8 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 12
+                        "value": 12,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1348,7 +1427,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1.5
+                        "value": 1.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1376,7 +1456,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1.5
+                        "value": 1.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1393,15 +1474,18 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 15
+                        "value": 15,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 5
+                        "value": 5,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 3
+                        "value": 3,
+                        "unit": "m"
                     }
                 ]
             },
@@ -1413,11 +1497,13 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 20
+                        "value": 20,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 12
+                        "value": 12,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1429,7 +1515,8 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 15.5
+                        "value": 15.5,
+                        "unit": "s"
                     }
                 ]
             }
@@ -1462,7 +1549,7 @@
                     },
                     {
                         "name": "dps",
-                        "value": "93.24000000000001"
+                        "value": "93"
                     },
                     {
                         "name": "ammo",
@@ -1510,15 +1597,18 @@
                     },
                     {
                         "name": "range",
-                        "value": 25
+                        "value": 25,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 5
+                        "value": 5,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1530,11 +1620,13 @@
                 "stats": [
                     {
                         "name": "cooldown",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 3
+                        "value": 3,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1547,7 +1639,8 @@
                 "stats": [
                     {
                         "name": "casttime",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1560,11 +1653,13 @@
                 "stats": [
                     {
                         "name": "casttime",
-                        "value": 4
+                        "value": 4,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 20
+                        "value": 20,
+                        "unit": "m"
                     }
                 ]
             }
@@ -1601,7 +1696,8 @@
                     },
                     {
                         "name": "range",
-                        "value": 5
+                        "value": 5,
+                        "unit": "m"
                     }
                 ]
             },
@@ -1618,11 +1714,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 6
+                        "value": 6,
+                        "unit": "s"
                     },
                     {
                         "name": "casttime",
-                        "value": 0.25
+                        "value": 0.25,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1639,11 +1737,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 3
+                        "value": 3,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1655,7 +1755,8 @@
                 "stats": [
                     {
                         "name": "cooldown",
-                        "value": 5
+                        "value": 5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1668,11 +1769,13 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 20
+                        "value": 20,
+                        "unit": "m"
                     },
                     {
                         "name": "casttime",
-                        "value": 0.5
+                        "value": 0.5,
+                        "unit": "s"
                     }
                 ]
             }
@@ -1722,7 +1825,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1.5
+                        "value": 1.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1752,7 +1856,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1.5
+                        "value": 1.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1769,11 +1874,13 @@
                     },
                     {
                         "name": "range",
-                        "value": 22
+                        "value": 22,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 6
+                        "value": 6,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1789,11 +1896,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1806,7 +1915,8 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 6
+                        "value": 6,
+                        "unit": "s"
                     }
                 ]
             }
@@ -1847,7 +1957,8 @@
                     },
                     {
                         "name": "range",
-                        "value": 8
+                        "value": 8,
+                        "unit": "m"
                     }
                 ]
             },
@@ -1864,11 +1975,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 6
+                        "value": 6,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 5
+                        "value": 5,
+                        "unit": "m"
                     }
                 ]
             },
@@ -1881,15 +1994,18 @@
                 "stats": [
                     {
                         "name": "cooldown",
-                        "value": 13
+                        "value": 13,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 5
+                        "value": 5,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 5
+                        "value": 5,
+                        "unit": "m"
                     }
                 ]
             },
@@ -1902,11 +2018,13 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 4
+                        "value": 4,
+                        "unit": "m"
                     },
                     {
                         "name": "duration",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     }
                 ]
             }
@@ -1952,11 +2070,13 @@
                     },
                     {
                         "name": "range",
-                        "value": 15
+                        "value": 15,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 1.5
+                        "value": 1.5,
+                        "unit": "s"
                     }
                 ]
             },
@@ -1983,7 +2103,8 @@
                     },
                     {
                         "name": "radius",
-                        "value": 2
+                        "value": 2,
+                        "unit": "m"
                     }
                 ]
             },
@@ -1996,11 +2117,13 @@
                 "stats": [
                     {
                         "name": "cooldown",
-                        "value": 10
+                        "value": 10,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2013,15 +2136,18 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 30
+                        "value": 30,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 8
+                        "value": 8,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2039,11 +2165,13 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 4
+                        "value": 4,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 8
+                        "value": 8,
+                        "unit": "m"
                     }
                 ]
             }
@@ -2088,7 +2216,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1.25
+                        "value": 1.25,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2104,16 +2233,13 @@
                         "value": "25"
                     },
                     {
-                        "name": "dps",
-                        "value": "NaN"
-                    },
-                    {
                         "name": "ammo",
                         "value": "4/20"
                     },
                     {
                         "name": "cooldown",
-                        "value": 4
+                        "value": 4,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2126,7 +2252,8 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 30
+                        "value": 30,
+                        "unit": "m"
                     }
                 ]
             },
@@ -2142,7 +2269,8 @@
                     },
                     {
                         "name": "range",
-                        "value": 30
+                        "value": 30,
+                        "unit": "m"
                     }
                 ]
             },
@@ -2155,15 +2283,18 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 30
+                        "value": 30,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 12
+                        "value": 12,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 3
+                        "value": 3,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2179,15 +2310,18 @@
                     },
                     {
                         "name": "range",
-                        "value": 30
+                        "value": 30,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 12
+                        "value": 12,
+                        "unit": "s"
                     },
                     {
                         "name": "duration",
-                        "value": 3
+                        "value": 3,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2200,7 +2334,8 @@
                 "stats": [
                     {
                         "name": "duration",
-                        "value": 6
+                        "value": 6,
+                        "unit": "s"
                     }
                 ]
             }
@@ -2233,7 +2368,7 @@
                     },
                     {
                         "name": "dps",
-                        "value": "NaN"
+                        "value": "100"
                     },
                     {
                         "name": "ammo",
@@ -2241,7 +2376,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2258,7 +2394,8 @@
                     },
                     {
                         "name": "range",
-                        "value": 15
+                        "value": 15,
+                        "unit": "m"
                     }
                 ]
             },
@@ -2272,7 +2409,8 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 15
+                        "value": 15,
+                        "unit": "m"
                     }
                 ]
             },
@@ -2284,11 +2422,13 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 30
+                        "value": 30,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2317,11 +2457,13 @@
                 "stats": [
                     {
                         "name": "casttime",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 15
+                        "value": 15,
+                        "unit": "m"
                     }
                 ]
             }
@@ -2358,11 +2500,13 @@
                     },
                     {
                         "name": "range",
-                        "value": 5
+                        "value": 5,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2380,7 +2524,8 @@
                     },
                     {
                         "name": "casttime",
-                        "value": "0 - 2"
+                        "value": "0 - 2",
+                        "unit": "s"
                     }
                 ]
             },
@@ -2396,11 +2541,13 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": "1 per 10 sec"
+                        "value": "1 per 10 sec",
+                        "unit": "s"
                     },
                     {
                         "name": "casttime",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2415,7 +2562,8 @@
                     },
                     {
                         "name": "range",
-                        "value": 10
+                        "value": 10,
+                        "unit": "m"
                     }
                 ]
             },
@@ -2428,11 +2576,13 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 20
+                        "value": 20,
+                        "unit": "m"
                     },
                     {
                         "name": "cooldown",
-                        "value": 1
+                        "value": 1,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2444,7 +2594,8 @@
                 "stats": [
                     {
                         "name": "casttime",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             }
@@ -2477,11 +2628,11 @@
                 "stats": [
                     {
                         "name": "damage",
-                        "value": "undefined"
+                        "value": "45"
                     },
                     {
                         "name": "dps",
-                        "value": "NaN"
+                        "value": "135"
                     },
                     {
                         "name": "ammo",
@@ -2489,7 +2640,8 @@
                     },
                     {
                         "name": "cooldown",
-                        "value": 2
+                        "value": 2,
+                        "unit": "s"
                     }
                 ]
             },
@@ -2508,7 +2660,7 @@
                     },
                     {
                         "name": "dps",
-                        "value": "NaN"
+                        "value": "35-175"
                     },
                     {
                         "name": "ammo",
@@ -2528,7 +2680,8 @@
                     },
                     {
                         "name": "range",
-                        "value": 40
+                        "value": 40,
+                        "unit": "m"
                     }
                 ]
             },
@@ -2540,7 +2693,8 @@
                 "stats": [
                     {
                         "name": "range",
-                        "value": 40
+                        "value": 40,
+                        "unit": "m"
                     }
                 ]
             },
@@ -2556,11 +2710,13 @@
                     },
                     {
                         "name": "duration",
-                        "value": 6
+                        "value": 6,
+                        "unit": "s"
                     },
                     {
                         "name": "radius",
-                        "value": 10
+                        "value": 10,
+                        "unit": "m"
                     }
                 ]
             }
