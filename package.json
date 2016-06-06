@@ -12,6 +12,7 @@
     "test": ""
   },
   "dependencies": {
+    "cors": "^2.7.1",
     "express": "^4.13.4",
     "gm": "^1.22.0",
     "grunt": "^0.4.5",
