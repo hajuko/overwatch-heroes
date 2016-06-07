@@ -1,4 +1,4 @@
-/crawler/crawler.js
-.idea
-node_modules
-.DS_Store
+.idea/
+node_modules/
+.DS_Store/
+tmp/
