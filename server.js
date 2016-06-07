@@ -1,6 +1,11 @@
-var express = require('express');
-var app = express();
-var port = 6000;
+const express = require('express');
+const app = express();
+const port = 6000;
+const cors = require('cors');
+
+app.disable('x-powered-by');
+app.use(cors());
+app.options('*', cors());
 
 app.use(express.static(__dirname + '/public'));
 
