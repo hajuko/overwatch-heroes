@@ -690,6 +690,10 @@
                 "damage": 400,
                 "stats": [
                     {
+                        "name": "damage",
+                        "value": 400
+                    },
+                    {
                         "name": "casttime",
                         "value": 1,
                         "unit": "s"
