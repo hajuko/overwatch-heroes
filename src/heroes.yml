@@ -236,14 +236,10 @@ heroes:
             unit: m
       -
         name: 'Concussive Blast'
-        type: attack
+        type: utility
         image: pharah/abilities/3.png
         key: E
-        damage: 120
         stats:
-          -
-            name: damage
-            value: 120
           -
             name: cooldown
             value: 12
