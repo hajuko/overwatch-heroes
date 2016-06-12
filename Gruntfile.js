@@ -12,14 +12,6 @@ module.exports = function(grunt) {
                 files: {
                     'public/data/heroes.json': ['src/heroes.yml']
                 }
-            },
-            test: {
-                options: {
-                    space: 4
-                },
-                files: {
-                    'tmp/heroes.json': ['tmp/heroes.yml']
-                }
             }
         },
         convert: {

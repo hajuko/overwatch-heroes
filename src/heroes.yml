@@ -41,7 +41,7 @@ heroes:
             value: '28'
           -
             name: dps
-            value: '168'
+            value: 168
           -
             name: ammo
             value: 24
@@ -85,6 +85,12 @@ heroes:
         roundsPerSec: 1
         damage: 120
         stats:
+          -
+            name: damage
+            value: 120
+          -
+            name: dps
+            value: 120
           -
             name: range
             value: 5
