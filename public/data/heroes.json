@@ -1811,7 +1811,7 @@
             "name": "Roadhog",
             "sourceUrl": "https://playoverwatch.com/de-de/heroes/roadhog/",
             "picture": "roadhog/roadhog.png",
-            "class": "defense",
+            "class": "tank",
             "difficulty": 2,
             "abilities": [
                 {
@@ -1949,7 +1949,7 @@
             "name": "Winston",
             "sourceUrl": "https://playoverwatch.com/de-de/heroes/winston/",
             "picture": "winston/winston.png",
-            "class": "defense",
+            "class": "tank",
             "difficulty": 2,
             "abilities": [
                 {
@@ -2062,7 +2062,7 @@
             "name": "Zarya",
             "sourceUrl": "https://playoverwatch.com/de-de/heroes/zarya/",
             "picture": "zarya/zarya.png",
-            "class": "defense",
+            "class": "tank",
             "difficulty": 3,
             "abilities": [
                 {
