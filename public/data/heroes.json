@@ -2296,7 +2296,7 @@
                 {
                     "name": "Amp It Up: Speed",
                     "type": "buff",
-                    "image": "lucio/abilities/3.json",
+                    "image": "lucio/abilities/3.png",
                     "key": "E",
                     "speed": "110%",
                     "stats": [
