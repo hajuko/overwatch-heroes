@@ -1297,7 +1297,7 @@ heroes:
       -
         name: 'Mech: Self-Destruct'
         type: ultimate
-        image: dva/abilities/.png
+        image: dva/abilities/5.png
         key: Q
         damage: 1000
         stats:
