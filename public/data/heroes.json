@@ -82,7 +82,7 @@
                 },
                 {
                     "name": "Deflect",
-                    "type": "defensive",
+                    "type": "defense",
                     "image": "genji/abilities/2.png",
                     "key": "E",
                     "stats": [
