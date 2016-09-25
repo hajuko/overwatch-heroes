@@ -18,11 +18,11 @@
                     "type": "attack",
                     "image": "genji/abilities/1.png",
                     "key": "LM",
-                    "damage": 28,
+                    "dmg": 28,
                     "roundsPerSec": 3,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "28"
                         },
                         {
@@ -40,11 +40,11 @@
                     "type": "attack",
                     "image": "genji/abilities/1.png",
                     "key": "RM",
-                    "damage": 28,
+                    "dmg": 28,
                     "roundsPerSec": 6,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "28"
                         },
                         {
@@ -62,10 +62,10 @@
                     "type": "attack",
                     "image": "genji/abilities/3.png",
                     "key": "SHIFT",
-                    "damage": 50,
+                    "dmg": 50,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 50
                         },
                         {
@@ -74,7 +74,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 8,
                             "unit": "s"
                         }
@@ -87,7 +87,7 @@
                     "key": "E",
                     "stats": [
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 8,
                             "unit": "s"
                         },
@@ -104,10 +104,10 @@
                     "image": "genji/abilities/4.png",
                     "key": "Q",
                     "roundsPerSec": 1,
-                    "damage": 120,
+                    "dmg": 120,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 120
                         },
                         {
@@ -153,11 +153,11 @@
                     "image": "mccree/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 2,
-                    "damage": 35,
-                    "damageMax": 70,
+                    "dmg": 35,
+                    "dmgMax": 70,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "35-70"
                         },
                         {
@@ -169,7 +169,7 @@
                             "value": 6
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1.5,
                             "unit": "s"
                         }
@@ -181,11 +181,11 @@
                     "image": "mccree/abilities/1.png",
                     "key": "RM",
                     "roundsPerSec": 6,
-                    "damage": 35,
-                    "damageMax": 70,
+                    "dmg": 35,
+                    "dmgMax": 70,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "35-70"
                         },
                         {
@@ -197,7 +197,7 @@
                             "value": 6
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 2,
                             "unit": "s"
                         }
@@ -208,10 +208,10 @@
                     "type": "attack",
                     "image": "mccree/abilities/3.png",
                     "key": "E",
-                    "damage": 25,
+                    "dmg": 25,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 25
                         },
                         {
@@ -220,7 +220,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 10,
                             "unit": "s"
                         }
@@ -238,7 +238,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 8,
                             "unit": "s"
                         }
@@ -249,8 +249,8 @@
                     "type": "ultimate",
                     "image": "mccree/abilities/4.png",
                     "key": "Q",
-                    "damage": 170,
-                    "damageMax": 850,
+                    "dmg": 170,
+                    "dmgMax": 850,
                     "stats": [
                         {
                             "name": "duration",
@@ -281,10 +281,10 @@
                     "image": "pharah/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 1,
-                    "damage": 120,
+                    "dmg": 120,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "120"
                         },
                         {
@@ -296,7 +296,7 @@
                             "value": 6
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1,
                             "unit": "s"
                         },
@@ -314,7 +314,7 @@
                     "key": "E",
                     "stats": [
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 12,
                             "unit": "s"
                         },
@@ -332,7 +332,7 @@
                     "key": "SHIFT",
                     "stats": [
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 10,
                             "unit": "s"
                         }
@@ -345,7 +345,7 @@
                     "isChanneled": true,
                     "stats": [
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 2,
                             "unit": "s"
                         },
@@ -362,8 +362,8 @@
                     "image": "pharah/abilities/4.png",
                     "key": "Q",
                     "roundsPerSec": 30,
-                    "damage": 40,
-                    "damageMax": 60,
+                    "dmg": 40,
+                    "dmgMax": 60,
                     "isChanneled": true,
                     "stats": [
                         {
@@ -395,11 +395,11 @@
                     "image": "reaper/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 2,
-                    "damage": 2,
-                    "damageMax": 7,
+                    "dmg": 2,
+                    "dmgMax": 7,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "2-140"
                         },
                         {
@@ -415,7 +415,7 @@
                             "value": 8
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1.5,
                             "unit": "s"
                         }
@@ -433,7 +433,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 8,
                             "unit": "s"
                         },
@@ -456,7 +456,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 10,
                             "unit": "s"
                         },
@@ -484,7 +484,7 @@
                     "type": "ultimate",
                     "image": "reaper/abilities/4.png",
                     "key": "Q",
-                    "damage": 600,
+                    "dmg": 600,
                     "stats": [
                         {
                             "name": "duration",
@@ -520,11 +520,11 @@
                     "image": "soldier76/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 10,
-                    "damage": 5,
-                    "damageMax": 17,
+                    "dmg": 5,
+                    "dmgMax": 17,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "5-17"
                         },
                         {
@@ -536,7 +536,7 @@
                             "value": 25
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1,
                             "unit": "s"
                         }
@@ -547,14 +547,14 @@
                     "type": "attack",
                     "image": "soldier76/abilities/2.png",
                     "key": "RM",
-                    "damage": 120,
+                    "dmg": 120,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 120
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 8,
                             "unit": "s"
                         },
@@ -579,11 +579,11 @@
                     "key": "E",
                     "stats": [
                         {
-                            "name": "healPerSec",
+                            "name": "hps",
                             "value": 40
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 15,
                             "unit": "s"
                         },
@@ -634,11 +634,11 @@
                     "image": "tracer/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 40,
-                    "damage": 1,
-                    "damageMax": 6,
+                    "dmg": 1,
+                    "dmgMax": 6,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "1-6"
                         },
                         {
@@ -650,7 +650,7 @@
                             "value": 40
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1,
                             "unit": "s"
                         }
@@ -668,7 +668,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 3,
                             "unit": "s"
                         }
@@ -681,7 +681,7 @@
                     "key": "E",
                     "stats": [
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 12,
                             "unit": "s"
                         },
@@ -697,7 +697,7 @@
                     "type": "ultimate",
                     "image": "tracer/abilities/4.png",
                     "key": "Q",
-                    "damage": 400,
+                    "dmg": 400,
                     "stats": [
                         {
                             "name": "casttime",
@@ -733,11 +733,11 @@
                     "image": "bastion/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 8,
-                    "damage": 6,
-                    "damageMax": 20,
+                    "dmg": 6,
+                    "dmgMax": 20,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "6-20"
                         },
                         {
@@ -749,7 +749,7 @@
                             "value": 20
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 2,
                             "unit": "s"
                         }
@@ -761,11 +761,11 @@
                     "image": "bastion/abilities/2.png",
                     "key": "LM",
                     "roundsPerSec": 30,
-                    "damage": 4,
-                    "damageMax": 15,
+                    "dmg": 4,
+                    "dmgMax": 15,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "4-15"
                         },
                         {
@@ -777,7 +777,7 @@
                             "value": 200
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 2.5,
                             "unit": "s"
                         }
@@ -817,7 +817,7 @@
                     "isChanneled": true,
                     "stats": [
                         {
-                            "name": "healPerSec",
+                            "name": "hps",
                             "value": "25%"
                         }
                     ]
@@ -829,7 +829,7 @@
                     "key": "Q",
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 205
                         },
                         {
@@ -875,11 +875,11 @@
                     "image": "hanzo/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 1,
-                    "damage": 29,
-                    "damageMax": 125,
+                    "dmg": 29,
+                    "dmgMax": 125,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "29-125"
                         },
                         {
@@ -902,11 +902,11 @@
                     "type": "attack",
                     "image": "hanzo/abilities/2.png",
                     "key": "SHIFT",
-                    "damage": 29,
-                    "damageMax": 125,
+                    "dmg": 29,
+                    "dmgMax": 125,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "29-125"
                         },
                         {
@@ -918,7 +918,7 @@
                             "value": "-"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 20,
                             "unit": "s"
                         },
@@ -939,10 +939,10 @@
                     "type": "attack",
                     "image": "hanzo/abilities/3.png",
                     "key": "E",
-                    "damage": 75,
+                    "dmg": 75,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "75-450"
                         },
                         {
@@ -954,7 +954,7 @@
                             "value": "-"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 10,
                             "unit": "s"
                         },
@@ -1012,11 +1012,11 @@
                     "image": "junkrat/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 1.66,
-                    "damage": 80,
-                    "damageMax": 120,
+                    "dmg": 80,
+                    "dmgMax": 120,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "80-120"
                         },
                         {
@@ -1028,7 +1028,7 @@
                             "value": 5
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1.5,
                             "unit": "s"
                         },
@@ -1044,14 +1044,14 @@
                     "type": "attack",
                     "image": "junkrat/abilities/2.png",
                     "key": "SHIFT",
-                    "damage": 120,
+                    "dmg": 120,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 120
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 8,
                             "unit": "s"
                         },
@@ -1067,14 +1067,14 @@
                     "type": "attack",
                     "image": "junkrat/abilities/3.png",
                     "key": "E",
-                    "damage": 80,
+                    "dmg": 80,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 80
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 10,
                             "unit": "s"
                         },
@@ -1094,7 +1094,7 @@
                     "name": "Total Mayhem",
                     "type": "passive",
                     "image": "junkrat/abilities/4.png",
-                    "damage": 60,
+                    "dmg": 60,
                     "pellets": 5,
                     "stats": []
                 },
@@ -1103,7 +1103,7 @@
                     "type": "ultimate",
                     "image": "junkrat/abilities/5.png",
                     "key": "Q",
-                    "damage": 600,
+                    "dmg": 600,
                     "stats": [
                         {
                             "name": "duration",
@@ -1144,10 +1144,10 @@
                     "image": "mei/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 20,
-                    "damage": 2.25,
+                    "dmg": 2.25,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "2.25"
                         },
                         {
@@ -1171,11 +1171,11 @@
                     "image": "mei/abilities/1.png",
                     "key": "RM",
                     "roundsPerSec": 1.8,
-                    "damage": 22,
-                    "damageMax": 75,
+                    "dmg": 22,
+                    "dmgMax": 75,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "22-75"
                         },
                         {
@@ -1195,11 +1195,11 @@
                     "key": "SHIFT",
                     "stats": [
                         {
-                            "name": "healPerSec",
+                            "name": "hps",
                             "value": 37.5
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 12,
                             "unit": "s"
                         },
@@ -1222,7 +1222,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 10,
                             "unit": "s"
                         },
@@ -1238,7 +1238,7 @@
                     "type": "ultimate",
                     "image": "mei/abilities/4.png",
                     "key": "Q",
-                    "damage": 97,
+                    "dmg": 97,
                     "stats": [
                         {
                             "name": "duration",
@@ -1279,10 +1279,10 @@
                     "image": "torbjorn/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 1.7,
-                    "damage": 70,
+                    "dmg": 70,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "70"
                         },
                         {
@@ -1294,7 +1294,7 @@
                             "value": 18
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 2,
                             "unit": "s"
                         }
@@ -1306,11 +1306,11 @@
                     "image": "torbjorn/abilities/1.png",
                     "key": "RM",
                     "roundsPerSec": 1.3,
-                    "damage": 6,
-                    "damageMax": 15,
+                    "dmg": 6,
+                    "dmgMax": 15,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "6-150"
                         },
                         {
@@ -1333,10 +1333,10 @@
                     "image": "torbjorn/abilities/2.png",
                     "key": 2,
                     "roundsPerSec": 1,
-                    "damage": 75,
+                    "dmg": 75,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 75
                         }
                     ]
@@ -1355,7 +1355,7 @@
                     "image": "torbjorn/abilities/3.png",
                     "stats": [
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 8,
                             "unit": "s"
                         }
@@ -1427,10 +1427,10 @@
                     "image": "widowmaker/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 10,
-                    "damage": 13,
+                    "dmg": 13,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "13"
                         },
                         {
@@ -1442,7 +1442,7 @@
                             "value": 30
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1.5,
                             "unit": "s"
                         }
@@ -1455,11 +1455,11 @@
                     "image": "widowmaker/abilities/1.png",
                     "key": "RM",
                     "roundsPerSec": 1,
-                    "damage": 15,
-                    "damageMax": 150,
+                    "dmg": 15,
+                    "dmgMax": 150,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "15-150"
                         },
                         {
@@ -1471,7 +1471,7 @@
                             "value": "3/30"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1.5,
                             "unit": "s"
                         }
@@ -1482,14 +1482,14 @@
                     "type": "attack",
                     "image": "widowmaker/abilities/3.png",
                     "key": "E",
-                    "damage": 75,
+                    "dmg": 75,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 75
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 15,
                             "unit": "s"
                         },
@@ -1517,7 +1517,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 12,
                             "unit": "s"
                         }
@@ -1558,10 +1558,10 @@
                     "image": "dva/abilities/2.png",
                     "key": "LM",
                     "roundsPerSec": 6.66,
-                    "damage": 14,
+                    "dmg": 14,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "14"
                         },
                         {
@@ -1580,11 +1580,11 @@
                     "image": "dva/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 7,
-                    "damage": 0.5,
-                    "damageMax": 3,
+                    "dmg": 0.5,
+                    "dmgMax": 3,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "0.5-24"
                         },
                         {
@@ -1606,10 +1606,10 @@
                     "type": "attack",
                     "image": "dva/abilities/3.png",
                     "key": "SHIFT",
-                    "damage": 25,
+                    "dmg": 25,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 25
                         },
                         {
@@ -1618,7 +1618,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 5,
                             "unit": "s"
                         },
@@ -1636,7 +1636,7 @@
                     "key": "E",
                     "stats": [
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 10,
                             "unit": "s"
                         },
@@ -1652,7 +1652,7 @@
                     "type": "ultimate",
                     "image": "dva/abilities/6.png",
                     "key": "Q",
-                    "damage": 50,
+                    "dmg": 50,
                     "stats": [
                         {
                             "name": "casttime",
@@ -1666,7 +1666,7 @@
                     "type": "ultimate",
                     "image": "dva/abilities/5.png",
                     "key": "Q",
-                    "damage": 1000,
+                    "dmg": 1000,
                     "stats": [
                         {
                             "name": "casttime",
@@ -1706,10 +1706,10 @@
                     "image": "reinhardt/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 1,
-                    "damage": 75,
+                    "dmg": 75,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 75
                         },
                         {
@@ -1724,14 +1724,14 @@
                     "type": "attack",
                     "image": "reinhardt/abilities/4.png",
                     "key": "E",
-                    "damage": 100,
+                    "dmg": 100,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 100
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 6,
                             "unit": "s"
                         },
@@ -1747,14 +1747,14 @@
                     "type": "attack",
                     "image": "reinhardt/abilities/3.png",
                     "key": "SHIFT",
-                    "damage": 350,
+                    "dmg": 350,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 350
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 10,
                             "unit": "s"
                         },
@@ -1772,7 +1772,7 @@
                     "shield": 2000,
                     "stats": [
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 5,
                             "unit": "s"
                         }
@@ -1783,7 +1783,7 @@
                     "type": "ultimate",
                     "image": "reinhardt/abilities/5.png",
                     "key": "Q",
-                    "damage": 50,
+                    "dmg": 50,
                     "stats": [
                         {
                             "name": "range",
@@ -1823,11 +1823,11 @@
                     "image": "roadhog/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 1,
-                    "damage": 4,
-                    "damageMax": 9,
+                    "dmg": 4,
+                    "dmgMax": 9,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "4-225"
                         },
                         {
@@ -1843,7 +1843,7 @@
                             "value": 4
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1.5,
                             "unit": "s"
                         }
@@ -1854,11 +1854,11 @@
                     "type": "attack",
                     "image": "roadhog/abilities/1.png",
                     "roundsPerSec": 1,
-                    "damage": 4,
-                    "damageMax": 9,
+                    "dmg": 4,
+                    "dmgMax": 9,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "4-225"
                         },
                         {
@@ -1874,7 +1874,7 @@
                             "value": 4
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1.5,
                             "unit": "s"
                         }
@@ -1885,10 +1885,10 @@
                     "type": "attack",
                     "image": "roadhog/abilities/3.png",
                     "key": "SHIFT",
-                    "damage": 30,
+                    "dmg": 30,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 30
                         },
                         {
@@ -1897,7 +1897,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 6,
                             "unit": "s"
                         }
@@ -1910,11 +1910,11 @@
                     "key": "E",
                     "stats": [
                         {
-                            "name": "healPerSec",
+                            "name": "hps",
                             "value": 300
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 8,
                             "unit": "s"
                         },
@@ -1930,7 +1930,7 @@
                     "type": "ultimate",
                     "image": "roadhog/abilities/4.png",
                     "key": "Q",
-                    "damage": 2500,
+                    "dmg": 2500,
                     "stats": [
                         {
                             "name": "duration",
@@ -1961,10 +1961,10 @@
                     "image": "winston/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 20,
-                    "damage": 2.7,
+                    "dmg": 2.7,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "2.7"
                         },
                         {
@@ -1987,14 +1987,14 @@
                     "type": "attack",
                     "image": "winston/abilities/2.png",
                     "key": "SHIFT",
-                    "damage": 50,
+                    "dmg": 50,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": 50
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 6,
                             "unit": "s"
                         },
@@ -2013,7 +2013,7 @@
                     "shield": 600,
                     "stats": [
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 13,
                             "unit": "s"
                         },
@@ -2034,7 +2034,7 @@
                     "type": "ultimate",
                     "image": "winston/abilities/4.png",
                     "key": "Q",
-                    "damage": 40,
+                    "dmg": 40,
                     "stats": [
                         {
                             "name": "range",
@@ -2074,11 +2074,11 @@
                     "image": "zarya/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 20,
-                    "damage": 4,
-                    "damageMax": 8,
+                    "dmg": 4,
+                    "dmgMax": 8,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "4-8"
                         },
                         {
@@ -2095,7 +2095,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1.5,
                             "unit": "s"
                         }
@@ -2107,11 +2107,11 @@
                     "image": "zarya/abilities/1.png",
                     "key": "RM",
                     "roundsPerSec": 1,
-                    "damage": 46,
-                    "damageMax": 92,
+                    "dmg": 46,
+                    "dmgMax": 92,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "46-92"
                         },
                         {
@@ -2137,7 +2137,7 @@
                     "shield": 200,
                     "stats": [
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 10,
                             "unit": "s"
                         },
@@ -2161,7 +2161,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 8,
                             "unit": "s"
                         },
@@ -2182,7 +2182,7 @@
                     "type": "ultimate",
                     "image": "zarya/abilities/4.png",
                     "key": "Q",
-                    "damage": 22,
+                    "dmg": 22,
                     "stats": [
                         {
                             "name": "duration",
@@ -2222,10 +2222,10 @@
                     "image": "lucio/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 4,
-                    "damage": 16,
+                    "dmg": 16,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "16"
                         },
                         {
@@ -2237,7 +2237,7 @@
                             "value": 20
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1.25,
                             "unit": "s"
                         }
@@ -2248,10 +2248,10 @@
                     "type": "attack",
                     "image": "lucio/abilities/1.png",
                     "key": "RM",
-                    "damage": 25,
+                    "dmg": 25,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "25"
                         },
                         {
@@ -2259,7 +2259,7 @@
                             "value": "4/20"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 4,
                             "unit": "s"
                         }
@@ -2286,7 +2286,7 @@
                     "key": "SHIFT",
                     "stats": [
                         {
-                            "name": "healPerSec",
+                            "name": "hps",
                             "value": 12.5
                         },
                         {
@@ -2309,7 +2309,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 12,
                             "unit": "s"
                         },
@@ -2327,7 +2327,7 @@
                     "key": "E",
                     "stats": [
                         {
-                            "name": "healPerSec",
+                            "name": "hps",
                             "value": 40
                         },
                         {
@@ -2336,7 +2336,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 12,
                             "unit": "s"
                         },
@@ -2383,10 +2383,10 @@
                     "image": "mercy/abilities/2.png",
                     "key": 2,
                     "roudsPerSec": 5,
-                    "damage": 20,
+                    "dmg": 20,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "20"
                         },
                         {
@@ -2398,7 +2398,7 @@
                             "value": 20
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1,
                             "unit": "s"
                         }
@@ -2412,7 +2412,7 @@
                     "isChanneled": true,
                     "stats": [
                         {
-                            "name": "healPerSec",
+                            "name": "hps",
                             "value": 50
                         },
                         {
@@ -2423,12 +2423,12 @@
                     ]
                 },
                 {
-                    "name": "Caduceus Staff: Damage",
+                    "name": "Caduceus Staff: dmg",
                     "type": "buff",
                     "image": "mercy/abilities/1.png",
                     "key": "RM",
                     "isChanneled": true,
-                    "damage": "30%",
+                    "dmg": "30%",
                     "stats": [
                         {
                             "name": "range",
@@ -2449,7 +2449,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 2,
                             "unit": "s"
                         }
@@ -2467,7 +2467,7 @@
                     "image": "mercy/abilities/4.png",
                     "stats": [
                         {
-                            "name": "healPerSec",
+                            "name": "hps",
                             "value": 25
                         }
                     ]
@@ -2508,11 +2508,11 @@
             "abilities": [
                 {
                     "name": "Photon Projector",
-                    "type": "damageVariable",
+                    "type": "dmgVariable",
                     "image": "symmetra/abilities/1.png",
                     "key": "LM",
                     "roundsPerSec": 8,
-                    "damage": [
+                    "dmg": [
                         3,
                         7,
                         15
@@ -2528,7 +2528,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1,
                             "unit": "s"
                         }
@@ -2539,8 +2539,8 @@
                     "type": "heal",
                     "image": "symmetra/abilities/1.png",
                     "key": "RM",
-                    "damage": 25,
-                    "damageMax": 125,
+                    "dmg": 25,
+                    "dmgMax": 125,
                     "stats": [
                         {
                             "name": "ammo",
@@ -2564,7 +2564,7 @@
                             "value": "3 (max. 6)"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": "1 per 10 sec",
                             "unit": "s"
                         },
@@ -2582,7 +2582,7 @@
                     "dps": 25,
                     "stats": [
                         {
-                            "name": "damage"
+                            "name": "dmg"
                         },
                         {
                             "name": "range",
@@ -2604,7 +2604,7 @@
                             "unit": "m"
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 1,
                             "unit": "s"
                         }
@@ -2652,7 +2652,7 @@
                     "damange": 45,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "45"
                         },
                         {
@@ -2664,7 +2664,7 @@
                             "value": 20
                         },
                         {
-                            "name": "cooldown",
+                            "name": "cd",
                             "value": 2,
                             "unit": "s"
                         }
@@ -2676,11 +2676,11 @@
                     "image": "zenyatta/abilities/1.png",
                     "key": "RM",
                     "casstime": "0 - 2.5",
-                    "damage": 35,
+                    "dmg": 35,
                     "pellets": 5,
                     "stats": [
                         {
-                            "name": "damage",
+                            "name": "dmg",
                             "value": "35"
                         },
                         {
@@ -2700,7 +2700,7 @@
                     "key": "SHIFT",
                     "stats": [
                         {
-                            "name": "healPerSec",
+                            "name": "hps",
                             "value": 30
                         },
                         {
@@ -2730,7 +2730,7 @@
                     "key": "Q",
                     "stats": [
                         {
-                            "name": "healPerSec",
+                            "name": "hps",
                             "value": 130
                         },
                         {
