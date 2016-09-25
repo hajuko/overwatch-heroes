@@ -318,7 +318,7 @@ heroes:
             name: dps
             value: 4-280
           -
-            name: numberOfPellets
+            name: pellets
             value: 20
           -
             name: ammo
@@ -737,7 +737,7 @@ heroes:
             name: damage
             value: 75-450
           -
-            name: numberOfPellets
+            name: pellets
             value: 6
           -
             name: ammo
@@ -1028,7 +1028,7 @@ heroes:
             name: dps
             value: 7.8-195
           -
-            name: numberOfPellets
+            name: pellets
             value: 10
           -
             name: ammo
@@ -1242,7 +1242,7 @@ heroes:
             name: dps
             value: 3.5-168
           -
-            name: numberOfPellets
+            name: pellets
             value: 8
           -
             name: ammo
@@ -1431,7 +1431,7 @@ heroes:
             name: dps
             value: 4-225
           -
-            name: numberOfPellets
+            name: pellets
             value: 25
           -
             name: ammo
@@ -1455,7 +1455,7 @@ heroes:
             name: dps
             value: 4-225
           -
-            name: numberOfPellets
+            name: pellets
             value: 25
           -
             name: ammo

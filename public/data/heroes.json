@@ -404,7 +404,7 @@
                             "value": "4-280"
                         },
                         {
-                            "name": "numberOfPellets",
+                            "name": "pellets",
                             "value": 20
                         },
                         {
@@ -943,7 +943,7 @@
                             "value": "75-450"
                         },
                         {
-                            "name": "numberOfPellets",
+                            "name": "pellets",
                             "value": 6
                         },
                         {
@@ -1315,7 +1315,7 @@
                             "value": "7.8-195"
                         },
                         {
-                            "name": "numberOfPellets",
+                            "name": "pellets",
                             "value": 10
                         },
                         {
@@ -1589,7 +1589,7 @@
                             "value": "3.5-168"
                         },
                         {
-                            "name": "numberOfPellets",
+                            "name": "pellets",
                             "value": 8
                         },
                         {
@@ -1832,7 +1832,7 @@
                             "value": "4-225"
                         },
                         {
-                            "name": "numberOfPellets",
+                            "name": "pellets",
                             "value": 25
                         },
                         {
@@ -1863,7 +1863,7 @@
                             "value": "4-225"
                         },
                         {
-                            "name": "numberOfPellets",
+                            "name": "pellets",
                             "value": 25
                         },
                         {
