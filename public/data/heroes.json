@@ -49,7 +49,7 @@
                         },
                         {
                             "name": "dps",
-                            "value": "168"
+                            "value": 168
                         },
                         {
                             "name": "ammo",
@@ -106,6 +106,14 @@
                     "roundsPerSec": 1,
                     "damage": 120,
                     "stats": [
+                        {
+                            "name": "damage",
+                            "value": 120
+                        },
+                        {
+                            "name": "dps",
+                            "value": 120
+                        },
                         {
                             "name": "range",
                             "value": 5,
@@ -301,15 +309,10 @@
                 },
                 {
                     "name": "Concussive Blast",
-                    "type": "attack",
+                    "type": "utility",
                     "image": "pharah/abilities/3.png",
                     "key": "E",
-                    "damage": 120,
                     "stats": [
-                        {
-                            "name": "damage",
-                            "value": 120
-                        },
                         {
                             "name": "cooldown",
                             "value": 12,
@@ -1811,7 +1814,7 @@
             "name": "Roadhog",
             "sourceUrl": "https://playoverwatch.com/de-de/heroes/roadhog/",
             "picture": "roadhog/roadhog.png",
-            "class": "defense",
+            "class": "tank",
             "difficulty": 2,
             "abilities": [
                 {
@@ -1949,7 +1952,7 @@
             "name": "Winston",
             "sourceUrl": "https://playoverwatch.com/de-de/heroes/winston/",
             "picture": "winston/winston.png",
-            "class": "defense",
+            "class": "tank",
             "difficulty": 2,
             "abilities": [
                 {
@@ -2062,7 +2065,7 @@
             "name": "Zarya",
             "sourceUrl": "https://playoverwatch.com/de-de/heroes/zarya/",
             "picture": "zarya/zarya.png",
-            "class": "defense",
+            "class": "tank",
             "difficulty": 3,
             "abilities": [
                 {
